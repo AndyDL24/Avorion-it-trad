@@ -13,8 +13,4 @@ file e rifare la stessa procedura indicata sopra. Oppure sulla mia guida di stea
 # Modifiche
 Se state cercando di capire perché il vostro PC non legge questo formato è normale, potete però, e vi consiglio di usarlo, aprirlo con "Notepad++", consigliatissimo per questo tipo di lavori.
 
-# Come posso ringraziati?
-Se vuoi ringraziarmi potresti fare una piccola donazione(anche un caffè) con paypal su questo sito:
-https://streamelements.com/andyd24/tip
-
 Ringrazio tutti in anticipo.
