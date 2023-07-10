@@ -8,7 +8,10 @@ file e rifare la stessa procedura indicata sopra. Oppure sulla mia guida di stea
 
 # Se voglio partecipare?
 È semplice dovete iscrivervi al sito e cliccare sulla scritta in alto a adestra "fork" scaricare il file con il pulsante "clone", modificare il file e dopo di che andare su
-"add file" poi "upload file" caricare il file come indicato e inserire il titolo e la descrizione delle modifiche e il gioco è fatto. Oppure potete usare il programma di Github desktop molto facile e molto utile
+"add file" poi "upload file" caricare il file come indicato e inserire il titolo e la descrizione delle modifiche e il gioco è fatto. Oppure potete usare il programma di Github desktop molto facile e molto utile.
+
+# Modifiche
+Se state cercando di capire perché il vostro PC non legge questo formato è normale, potete però, e vi consiglio di usarlo, aprirlo con "Notepad++", consigliatissimo per questo tipo di lavori.
 
 # Come posso ringraziati?
 Se vuoi ringraziarmi potresti fare una piccola donazione(anche un caffè) con paypal su questo sito:
