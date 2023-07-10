@@ -12,5 +12,10 @@ file e rifare la stessa procedura indicata sopra. Oppure sulla mia guida di stea
 
 # Modifiche
 Se state cercando di capire perché il vostro PC non legge questo formato è normale, potete però, e vi consiglio di usarlo, aprirlo con "Notepad++", consigliatissimo per questo tipo di lavori.
+Una volta aperto il file troverai molte righe di testo a te interessano soprattutto due di queste
+msgid (il testo originale che trovate all'interno delle virgolette)
+msgstr (virgolette "" vuote dove inserire la traduzione italiana.
+
+Potreaste trovare una riga con questo codice: "msgctxt" è la descrizione di cosa state draducendo quindi vi aiuta a capire l'argomento trattato.
 
 Ringrazio tutti in anticipo.
