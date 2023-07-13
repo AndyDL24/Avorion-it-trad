@@ -11,185 +11,185 @@ msgstr ""
 #: ./install/avorion/data/scripts/lib/entity.lua:
 #: ./install/avorion_server/data/scripts/lib/entity.lua:
 msgid "This craft cannot board others: %s"
-msgstr ""
+msgstr "Questa nave non può abbordare altre navi: %s"
 
 #: ./Common/Game/AI/BoardingState.cpp:
 msgid "This object cannot be boarded."
-msgstr ""
+msgstr "Questo oggetto non può essere abbordato."
 
 #: ./Common/Game/AI/BoardingState.cpp:
 msgid "This ship needs weapons to board other ships."
-msgstr ""
+msgstr "Questa nave ha bisogno di armi per abbordare altre navi."
 
 
 # ========== ./Common/Game/AI/FollowState.cpp ==========
 #: ./Common/Game/AI/FollowState.cpp:
 msgid "Your craft %1% can't follow %2% because it won't fit through a wormhole or gate."
-msgstr ""
+msgstr "La vostra nave %1% non può seguire %2% perché non può passare attraverso un tunnel o uno stargate."
 
 #: ./Common/Game/AI/FollowState.cpp:
 msgid "One of your crafts can't follow its target %s because it won't fit through a wormhole or gate."
-msgstr ""
+msgstr "Una delle vostre navi non può seguire il suo obiettivo %s perché non può passare attraverso un tunnel o un stagate."
 
 #: ./Common/Game/AI/FollowState.cpp:
 msgid "Your craft %1% has lost track of its target %2%."
-msgstr ""
+msgstr "La tua nave %1% ha perso di vista il suo obiettivo %2%."
 
 #: ./Common/Game/AI/FollowState.cpp:
 msgid "One of your crafts has lost track of its target %s."
-msgstr ""
+msgstr "Una delle vostre navi ha perso di vista il suo obiettivo %s."
 
 
 # ========== ./Common/Game/AI/JumpState.cpp ==========
 #: ./Common/Game/AI/JumpState.cpp:
 msgid "%1% can't perform a hyperspace jump because it doesn't have enough energy."
-msgstr ""
+msgstr "Il %1% non può eseguire un salto nell'iperspazio perché non ha abbastanza energia."
 
 
 # ========== ./Common/Game/Alliance.cpp ==========
 #: ./Common/Game/Alliance.cpp:
 msgid "Invite other players to the alliance."
-msgstr ""
+msgstr "Invitare altri giocatori nell'alleanza."
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Kick other members ranked lower than you from the alliance."
-msgstr ""
+msgstr "Espellere dall'alleanza altri membri di grado inferiore al proprio."
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Promote other members ranked lower than you, but not to a rank higher than your rank."
-msgstr ""
+msgstr "Promuovere altri membri di grado inferiore al proprio, ma non a un grado superiore al proprio."
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Demote other members ranked lower than you."
-msgstr ""
+msgstr "Retrocessione di altri membri di grado inferiore al proprio."
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Edit ranks and permissions."
-msgstr ""
+msgstr "Modificare i gradi e i permessi."
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Add items to the alliance safe."
-msgstr ""
+msgstr "Aggiungere oggetti alla riserva dell'alleanza."
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Use items from the alliance safe on crafts and property owned by the alliance."
-msgstr ""
+msgstr "Usare gli oggetti della riserva dell'alleanza per le imbarcazioni e le proprietà dell'alleanza."
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Take items from the alliance safe."
-msgstr ""
+msgstr "Prendere oggetti dalla riserva dell'alleanza."
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Add resources to the alliance safe."
-msgstr ""
+msgstr "Aggiungere risorse alla riserva dell'alleanza."
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Use resources from the alliance safe on crafts and property owned by the alliance."
-msgstr ""
+msgstr "Utilizzare le risorse della riserva dell'alleanza su artigianato e beni di proprietà dell'alleanza."
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Take resources from the alliance safe."
-msgstr ""
+msgstr "Prelevare risorse dalla riserva dell'alleanza."
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Found ships that will be owned by the alliance."
-msgstr ""
+msgstr "Navi trovate che saranno di proprietà dell'alleanza."
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Found stations that will be owned by the alliance."
-msgstr ""
+msgstr "Trovare stazioni che saranno di proprietà dell'alleanza."
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Manage stations, factory or mine prices, insurance and sell asteroids."
-msgstr ""
+msgstr "Gestire le stazioni, i prezzi delle fabbriche o delle miniere, assicura la vendita di asteroidi."
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Manage ships, e.g. crew payment, ship transfers, orders, reconstruction and naming."
-msgstr ""
+msgstr Gestire le navi, ad esempio il pagamento dell'equipaggio, i trasferimenti di navi, gli ordini, la ricostruzione e la denominazione.""
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Fly and manage crafts owned by the alliance."
-msgstr ""
+msgstr "Volare e gestire le navi di proprietà dell'alleanza."
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Change equipment and structure of crafts and property owned by the alliance."
-msgstr ""
+msgstr "Modificare l'equipaggiamento e la struttura dei servizi artigianali e dei beni di proprietà dell'Alleanza."
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Change the emblem of the alliance."
-msgstr ""
+msgstr "Cambiare l'emblema dell'alleanza."
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Change the message of the day in the alliance main menu."
-msgstr ""
+msgstr "Cambiare il messaggio del giorno nel menu principale dell'alleanza."
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Negotiate relations with other factions."
-msgstr ""
+msgstr "Negoziare le relazioni con le altre fazioni."
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Mark sectors on the map and change notes."
-msgstr ""
+msgstr "Contrassegnare i settori sulla mappa e modificare le note."
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Invite Players"
-msgstr ""
+msgstr "Invita i giocatori"
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Kick Players"
-msgstr ""
+msgstr "Espelli giocatore"
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Promote Members"
-msgstr ""
+msgstr "Promuovi giocatore"
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Demote Members"
-msgstr ""
+msgstr "Retrocedi giocatore"
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Edit Ranks"
-msgstr ""
+msgstr "Modifica dei gradi"
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Add Items"
-msgstr ""
+msgstr "Aggiungi oggetti"
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Spend Items"
-msgstr ""
+msgstr "Spendi oggetti"
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Take Items"
-msgstr ""
+msgstr "Prendi oggetti"
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Add Resources"
-msgstr ""
+msgstr "Aggiungi risorse"
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Spend Resources"
-msgstr ""
+msgstr "Spendi risorse"
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Take Resources"
-msgstr ""
+msgstr "Prendi risorse"
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Found Ships"
-msgstr ""
+msgstr "Navi trovate"
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Found Stations"
-msgstr ""
+msgstr "Stazioni trovate "
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Manage Stations"
-msgstr ""
+msgstr "Gestisci stazione"
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Manage Ships"
-msgstr ""
+msgstr "Gestisci navi"
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Fly Crafts"
@@ -2216,7 +2216,7 @@ msgstr ""
 #: ./install/avorion_server/data/scripts/player/missions/searchandrescue/searchandrescue.lua:
 #: ./install/avorion_server/data/scripts/player/missions/tutorials/tutorial_emergencycall.lua:
 msgid "Unknown"
-msgstr ""
+msgstr "Sconosciuto"
 
 #: ./Common/Game/Components/EntityType.cpp:
 #: ./Common/Game/FighterStartError.cpp:
@@ -4994,7 +4994,7 @@ msgstr ""
 #: ./install/avorion_server/data/scripts/player/missions/tutorials/strategymodetutorial.lua:
 #: ./install/avorion_server/data/scripts/player/missions/tutorials/torpedoestutorial.lua:
 msgid "Okay."
-msgstr ""
+msgstr "Ok"
 
 #: ./Common/Scripts/dlc/blackmarket/entity/convoymissiongiver.lua:
 msgid "We need somebody to respond to an emergency call! Will you help?"
@@ -6561,7 +6561,7 @@ msgstr ""
 #: ./install/avorion_server/data/scripts/player/missions/tutorials/foundstationtutorial.lua:
 #: ./install/avorion_server/data/scripts/player/story/organizedallies.lua:
 msgid "Thank you."
-msgstr ""
+msgstr "Grazie"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/cavaliers/cavaliersmission2.lua:
 msgid "The station has renewed their contract with us. They won't trade with the Family or the Commune anymore."
@@ -6595,7 +6595,7 @@ msgstr ""
 #: ./install/avorion_server/data/scripts/player/missions/bountyhuntmission.lua:
 #: ./install/avorion_server/data/scripts/player/missions/tutorials/tutorial_explaindestruction.lua:
 msgid "Thanks."
-msgstr ""
+msgstr "Grazie"
 
 
 # ========== ./Common/Scripts/dlc/blackmarket/player/missions/cavaliers/cavaliersmission3.lua ==========
@@ -7208,7 +7208,7 @@ msgstr ""
 #: ./install/avorion/data/scripts/player/missions/tutorials/tutorial_explaindestruction.lua:
 #: ./install/avorion_server/data/scripts/player/missions/tutorials/tutorial_explaindestruction.lua:
 msgid "Are you sure?"
-msgstr ""
+msgstr "Ne sei sicuro?"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/cavaliers/cavaliersmission4.lua:
 msgid "I'll fight on your side."
@@ -7706,7 +7706,7 @@ msgstr ""
 #: ./install/avorion/data/scripts/player/missions/tutorials/tutorial_explaindestruction.lua:
 #: ./install/avorion_server/data/scripts/player/missions/tutorials/tutorial_explaindestruction.lua:
 msgid "How do I do that?"
-msgstr ""
+msgstr "Come posso farlo?"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/cavaliers/cavaliersmission6.lua:
 #: ./Common/Scripts/dlc/blackmarket/player/missions/commune/communemission6.lua:
@@ -7851,7 +7851,7 @@ msgstr ""
 #: ./install/avorion/data/scripts/player/missions/tutorials/foundstationtutorial.lua:
 #: ./install/avorion_server/data/scripts/player/missions/tutorials/foundstationtutorial.lua:
 msgid "Sure."
-msgstr ""
+msgstr "Certo."
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/commune/communemission1.lua:
 msgid "You are self-confident, I like that!\n\nIf you are successful, maybe we can talk about some more job opportunities in the future."
@@ -12692,7 +12692,7 @@ msgstr ""
 #: ./install/avorion/data/scripts/player/missions/tutorials/strategymodetutorial.lua:
 #: ./install/avorion_server/data/scripts/player/missions/tutorials/strategymodetutorial.lua:
 msgid "Thanks!"
-msgstr ""
+msgstr "Grazie!"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/sidemissions/sidemission3.lua:
 msgid "Have you ever wanted to prove that you are the fastest hacker of containers in the galaxy? Now is your chance! Get yourself an Injector Subsystem of at least level 4 and meet the Game Master of the Hackathon!"
@@ -13107,7 +13107,7 @@ msgstr ""
 #: ./install/avorion_server/data/scripts/player/events/fakedistresssignal.lua:
 #: ./install/avorion_server/data/scripts/player/missions/tutorials/tutorial_emergencycall.lua:
 msgid "You have received a distress signal from an unknown source."
-msgstr ""
+msgstr "Avete ricevuto un segnale di soccorso da una fonte sconosciuta."
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/trader/blackmarkettradermission2.lua:
 msgid "Help me! I'll reward anyone who helps me!"
@@ -15186,11 +15186,11 @@ msgstr ""
 
 #: ./Common/Scripts/dlc/rift/player/riftmission.lua:
 msgid "${shipName}"
-msgstr ""
+msgstr "${shipName}"
 
 #: ./Common/Scripts/dlc/rift/player/riftmission.lua:
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: ./Common/Scripts/dlc/rift/player/riftmission.lua:
 msgid "Report regarding ${shipName}"
@@ -15201,7 +15201,7 @@ msgstr ""
 #: ./Client/ClientUI/Menu/VersionSaveGameIssuesWindow.cpp:
 #: ./Client/ClientUI/Tutorial.cpp:
 msgid "Continue"
-msgstr ""
+msgstr "Continua"
 
 #: ./Common/Scripts/dlc/rift/player/riftmission.lua:
 #: ./Client/Client/Session/DownloadingModsMenu.cpp:
@@ -15408,7 +15408,7 @@ msgstr ""
 #: ./install/avorion/data/scripts/player/missions/tutorials/foundstationtutorial.lua:
 #: ./install/avorion_server/data/scripts/player/missions/tutorials/foundstationtutorial.lua:
 msgid "Not right now."
-msgstr ""
+msgstr "Non in questo momento."
 
 #: ./Common/Scripts/dlc/rift/player/story/riftstorymission2-combat.lua:
 msgid "Before we go you should arm yourself as much as you can. This won't be a leisurely walk!"
@@ -25614,7 +25614,7 @@ msgstr ""
 #: ./Client/ClientUI/Menu/NewGameSettingsSelector.cpp:
 msgctxt "warning window caption"
 msgid "Tutorial Warning"
-msgstr ""
+msgstr "Avvertenze per il tutorial"
 
 #: ./Client/ClientUI/Menu/NewGameSettingsSelector.cpp:
 msgid "PLAY TUTORIAL"
@@ -25622,13 +25622,13 @@ msgstr "GIOCA IL TUTORIAL"
 
 #: ./Client/ClientUI/Menu/NewGameSettingsSelector.cpp:
 msgid "It seems like you haven't played the tutorial yet. Avorion is a complex game and it is highly recommended that you play the tutorial in your first playthrough.\n\nDo you really want to skip the tutorial?"
-msgstr ""
+msgstr "Sembra che tu non abbia ancora giocato il tutorial. Avorion è un gioco complesso e si consiglia vivamente di giocare il tutorial durante la prima partita.\nDavvero vuoi saltare il tutorial?"
 
 
 # ========== ./Client/ClientUI/Menu/NewsWindow.cpp ==========
 #: ./Client/ClientUI/Menu/NewsWindow.cpp:
 msgid "News"
-msgstr "Novit�"
+msgstr "Novità"
 
 #: ./Client/ClientUI/Menu/NewsWindow.cpp:
 msgid "Visit Website"
@@ -25734,7 +25734,7 @@ msgstr "Menu principale"
 
 #: ./Client/ClientUI/Menu/PauseMenu.cpp:
 msgid "If you quit now, all progress in the tutorial will be lost and you'll have to start over.\nAre you sure you want to quit?"
-msgstr ""
+msgstr "Se si abbandona ora, tutti i progressi del tutorial andranno persi e si dovrà ricominciare da capo.\nSei sicuro di voler abbandonare?"
 
 #: ./Client/ClientUI/Menu/PauseMenu.cpp:
 msgid "Latest News & Updates"
@@ -27505,55 +27505,55 @@ msgstr ""
 # ========== ./Client/ClientUI/Tutorial.cpp ==========
 #: ./Client/ClientUI/Tutorial.cpp:
 msgid "Welcome to Avorion!\nIf you'd like to play the tutorial, please start a singleplayer galaxy!"
-msgstr ""
+msgstr "Benvenuto in Avorion! Se vuoi giocare il tutorial, avvia una galassia a giocatore singolo!"
 
 #: ./Client/ClientUI/Tutorial.cpp:
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: ./Client/ClientUI/Tutorial.cpp:
 msgid "Welcome to Avorion!\nUse the mouse to look around in the sector."
-msgstr ""
+msgstr "Benvenuti ad Avorion! \nUsate il mouse per guardarvi intorno nel settore."
 
 #: ./Client/ClientUI/Tutorial.cpp:
 msgid "You will have to use your mouse to use the UI or select things.\n"
-msgstr ""
+msgstr "Per utilizzare l'interfaccia utente e selezionare gli oggetti è necessario utilizzare il mouse. \n"
 
 #: ./Client/ClientUI/Tutorial.cpp:
 msgid "Hold [%s] to release your mouse pointer and click away this message."
-msgstr ""
+msgstr "Teni premuto [%s] per rilasciare il puntatore del mouse e fare clic su questo messaggio."
 
 #: ./Client/ClientUI/Tutorial.cpp:
 msgid "Hold [%1%] to move forward. Hold [%2%] to fly backwards."
-msgstr ""
+msgstr "Teni premuto [%1%] per avanzare. Tieni premuto [%2%] per volare all'indietro."
 
 #: ./Client/ClientUI/Tutorial.cpp:
 msgid "Letting go of [%1%] or [%2%] will cause your thrusters to slow down your ship.\n"
-msgstr ""
+msgstr "Se si lascia andare [%1%] o [%2%], i propulsori rallentano la nave. \n"
 
 #: ./Client/ClientUI/Tutorial.cpp:
 msgid "Pressing [%2%] will not make you brake faster."
-msgstr ""
+msgstr "Premendo [%2%] non si frena più velocemente."
 
 #: ./Client/ClientUI/Tutorial.cpp:
 msgid "Here you can see your current speed."
-msgstr ""
+msgstr "Qui si può vedere la velocità attuale."
 
 #: ./Client/ClientUI/Tutorial.cpp:
 msgid "Blue means you're flying in the direction that your ship is looking.\n"
-msgstr ""
+msgstr "Il blu significa che state volando nella direzione in cui la vostra nave sta guardando. \n"
 
 #: ./Client/ClientUI/Tutorial.cpp:
 msgid "Orange means you're flying in the opposite direction."
-msgstr ""
+msgstr "L'arancione significa che si sta volando nella direzione opposta."
 
 #: ./Client/ClientUI/Tutorial.cpp:
 msgid "Hold [%1%] and [%2%] to boost."
-msgstr ""
+msgstr "Teni premuto [%1%] e [%2%] per boostare i propulsori."
 
 #: ./Client/ClientUI/Tutorial.cpp:
 msgid "Boosting requires more and more energy.\n"
-msgstr ""
+msgstr "Il boost richiede sempre più energia."
 
 #: ./Client/ClientUI/Tutorial.cpp:
 msgid "If you use up too much of your energy for boosting,\nother systems in your ship won’t receive any more energy and might fail."
