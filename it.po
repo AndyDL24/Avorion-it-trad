@@ -14134,7 +14134,7 @@ msgstr ""
 #: ./install/avorion_server/data/scripts/entity/ancientgate.lua:
 #: ./install/avorion_server/data/scripts/entity/gate.lua:
 msgid "Ready"
-msgstr ""
+msgstr "Pronto"
 
 #: ./Common/Scripts/dlc/rift/entity/riftobjects/inactivegate.lua:
 #: ./data/scripts/entity/ancientgate.lua:
@@ -14144,7 +14144,7 @@ msgstr ""
 #: ./install/avorion_server/data/scripts/entity/ancientgate.lua:
 #: ./install/avorion_server/data/scripts/entity/gate.lua:
 msgid "Not Ready"
-msgstr ""
+msgstr "Non pronto"
 
 #: ./Common/Scripts/dlc/rift/entity/riftobjects/inactivegate.lua:
 #: ./Client/Client/Session/ClientModDownloadState.cpp:
@@ -14156,15 +14156,15 @@ msgstr ""
 #: ./install/avorion_server/data/scripts/entity/ancientgate.lua:
 #: ./install/avorion_server/data/scripts/entity/gate.lua:
 msgid "Status"
-msgstr ""
+msgstr "Stato"
 
 #: ./Common/Scripts/dlc/rift/entity/riftobjects/inactivegate.lua:
 msgid "Power supply established, starting sequence initiated."
-msgstr ""
+msgstr "Potenza stabilita, sequenza di avviamento avviata."
 
 #: ./Common/Scripts/dlc/rift/entity/riftobjects/inactivegate.lua:
 msgid "All systems online, connection established."
-msgstr ""
+msgstr "Tutti i sistemi operativi, connessione stabilita."
 
 #: ./Common/Scripts/dlc/rift/entity/riftobjects/inactivegate.lua:
 msgid "Activator required in the vicinity, systems on standby."
@@ -19879,25 +19879,25 @@ msgstr ""
 #: ./install/avorion/data/scripts/items/coopreconstructionkit.lua:
 #: ./install/avorion_server/data/scripts/items/coopreconstructionkit.lua:
 msgid "Player"
-msgstr ""
+msgstr "Giocatore"
 
 #: ./Client/Client/Player/PlayerFlyingState.cpp:
 #: ./Client/ClientUI/Menu/LanMultiplayerWindow.cpp:
 #: ./Client/ClientUI/Menu/OnlineMultiplayerWindow.cpp:
 #: ./Client/ClientUI/Menu/ServerBrowserWindow.cpp:
 msgid "Ping"
-msgstr ""
+msgstr "Ping"
 
 
 # ========== ./Client/Client/Player/PlayerStrategyState.cpp ==========
 #: ./Client/Client/Player/PlayerStrategyState.cpp:
 msgid "Escort"
-msgstr ""
+msgstr "Scorta"
 
 #: ./Client/Client/Player/PlayerStrategyState.cpp:
 #: ./Client/ClientUI/Hud/FighterControls.cpp:
 msgid "Attack (%s)"
-msgstr ""
+msgstr "Attacco (%s)"
 
 #: ./Client/Client/Player/PlayerStrategyState.cpp:
 msgid "Fly Through"
@@ -20150,12 +20150,12 @@ msgstr ""
 #: ./Client/Client/Session/ClientModDownloadState.cpp:
 msgctxt "short for Version"
 msgid "Ver"
-msgstr ""
+msgstr "Ver"
 
 #: ./Client/Client/Session/ClientModDownloadState.cpp:
 #: ./Client/ClientUI/Menu/ModsWindow.cpp:
 msgid "Title"
-msgstr ""
+msgstr "Titilo"
 
 #: ./Client/Client/Session/ClientModDownloadState.cpp:
 #: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
@@ -20163,22 +20163,22 @@ msgstr ""
 #: ./Client/ClientUI/Menu/OnlineMultiplayerWindow.cpp:
 #: ./Client/ClientUI/Menu/ServerBrowserWindow.cpp:
 msgid "Description"
-msgstr ""
+msgstr "Descrizione"
 
 #: ./Client/Client/Session/ClientModDownloadState.cpp:
 #: ./Client/ClientUI/Menu/ModsWindow.cpp:
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: ./Client/Client/Session/ClientModDownloadState.cpp:
 msgctxt "Mod Installation Status"
 msgid "Ready"
-msgstr ""
+msgstr "Pronta"
 
 #: ./Client/Client/Session/ClientModDownloadState.cpp:
 msgctxt "Mod Installation Status"
 msgid "Download Required"
-msgstr ""
+msgstr "Download richiesto"
 
 #: ./Client/Client/Session/ClientModDownloadState.cpp:
 msgid "This mod will be downloaded automatically from the Steam Workshop."
@@ -20187,7 +20187,7 @@ msgstr ""
 #: ./Client/Client/Session/ClientModDownloadState.cpp:
 msgctxt "Mod Installation Status"
 msgid "Not Installed"
-msgstr ""
+msgstr "Non installata"
 
 #: ./Client/Client/Session/ClientModDownloadState.cpp:
 msgid "Couldn't find this mod on disk or in the Steam Workshop."
@@ -21599,7 +21599,7 @@ msgstr ""
 #: ./install/avorion_server/data/scripts/player/ui/sectorshipoverview.lua:
 #: ./install/avorion_server/data/scripts/systems/valuablesdetector.lua:
 msgid "Sector"
-msgstr ""
+msgstr "Settore"
 
 #: ./Client/ClientUI/Hud/ChatWindow.cpp:
 #: ./Client/ClientUI/PlayerWindow/AllianceTab.cpp:
@@ -21613,36 +21613,36 @@ msgstr ""
 #: ./install/avorion_server/data/scripts/items/gatemapupdate.lua:
 #: ./install/avorion_server/data/scripts/player/ui/encyclopedia/chapters/coopmultiplayer.lua:
 msgid "Alliance"
-msgstr ""
+msgstr "Alleanza"
 
 #: ./Client/ClientUI/Hud/ChatWindow.cpp:
 #: ./data/scripts/player/ui/encyclopedia/chapters/coopmultiplayer.lua:
 #: ./install/avorion/data/scripts/player/ui/encyclopedia/chapters/coopmultiplayer.lua:
 #: ./install/avorion_server/data/scripts/player/ui/encyclopedia/chapters/coopmultiplayer.lua:
 msgid "Group"
-msgstr ""
+msgstr "Gruppo"
 
 #: ./Client/ClientUI/Hud/ChatWindow.cpp:
 msgid "Economy"
-msgstr ""
+msgstr "Economia"
 
 #: ./Client/ClientUI/Hud/ChatWindow.cpp:
 msgid "Notifications"
-msgstr ""
+msgstr "Notifiche"
 
 
 # ========== ./Client/ClientUI/Hud/CompareItemsWindow.cpp ==========
 #: ./Client/ClientUI/Hud/CompareItemsWindow.cpp:
 msgid "Compare"
-msgstr ""
+msgstr "Confronta"
 
 #: ./Client/ClientUI/Hud/CompareItemsWindow.cpp:
 msgid "Empty. Use [E] to select another item of the same type to compare."
-msgstr ""
+msgstr "Vuoto. Usa [E] per selezionare un altro oggetto dello stesso tipo da confrontare"
 
 #: ./Client/ClientUI/Hud/CompareItemsWindow.cpp:
 msgid "Compare Turrets"
-msgstr ""
+msgstr "Confronta Torrette"
 
 #: ./Client/ClientUI/Hud/CompareItemsWindow.cpp:
 msgid "Compare Fighters"
@@ -24872,11 +24872,11 @@ msgstr ""
 #: ./install/avorion_server/data/scripts/lib/captainutility.lua:
 #: ./install/avorion_server/data/scripts/systems/tradingoverview.lua:
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
 msgid "Arguments"
-msgstr ""
+msgstr "Argomenti"
 
 #: ./Client/ClientUI/Menu/HostDedicatedServerWindow.cpp:
 #: ./data/scripts/entity/merchants/shipyard.lua:
@@ -25020,7 +25020,7 @@ msgstr ""
 # ========== ./Client/ClientUI/Menu/LanMultiplayerWindow.cpp ==========
 #: ./Client/ClientUI/Menu/LanMultiplayerWindow.cpp:
 msgid "Address"
-msgstr ""
+msgstr "Indirizzo"
 
 #: ./Client/ClientUI/Menu/LanMultiplayerWindow.cpp:
 #: ./Client/ClientUI/Menu/OnlineMultiplayerWindow.cpp:
@@ -25029,17 +25029,17 @@ msgstr ""
 #: ./install/avorion/data/scripts/player/ui/diplomacy.lua:
 #: ./install/avorion_server/data/scripts/player/ui/diplomacy.lua:
 msgid "Players"
-msgstr ""
+msgstr "Giocatori"
 
 #: ./Client/ClientUI/Menu/LanMultiplayerWindow.cpp:
 #: ./Client/ClientUI/Menu/OnlineMultiplayerWindow.cpp:
 #: ./Client/ClientUI/Menu/ServerBrowserWindow.cpp:
 msgid "Join"
-msgstr ""
+msgstr "Entra"
 
 #: ./Client/ClientUI/Menu/LanMultiplayerWindow.cpp:
 msgid "Join the local network game"
-msgstr ""
+msgstr "Entra in un server locale"
 
 #: ./Client/ClientUI/Menu/LanMultiplayerWindow.cpp:
 #: ./Client/ClientUI/Menu/ModsWindow.cpp:
@@ -25047,7 +25047,7 @@ msgstr ""
 #: ./Client/ClientUI/Menu/ServerBrowserWindow.cpp:
 #: ./Client/ClientUI/SavedDesignsSelection.cpp:
 msgid "Refresh"
-msgstr ""
+msgstr "Aggiorna"
 
 #: ./Client/ClientUI/Menu/LanMultiplayerWindow.cpp:
 msgid "Refresh LAN games"
@@ -25055,73 +25055,73 @@ msgstr ""
 
 #: ./Client/ClientUI/Menu/LanMultiplayerWindow.cpp:
 msgid "Host"
-msgstr ""
+msgstr "Host"
 
 #: ./Client/ClientUI/Menu/LanMultiplayerWindow.cpp:
 msgid "Host a new LAN game"
-msgstr ""
+msgstr "Hosta un nuovo gioco in LAN"
 
 #: ./Client/ClientUI/Menu/LanMultiplayerWindow.cpp:
 msgid "Local Network Multiplayer"
-msgstr ""
+msgstr "Multiplayer in locale"
 
 #: ./Client/ClientUI/Menu/LanMultiplayerWindow.cpp:
 msgid "Searching ... "
-msgstr ""
+msgstr "Ricerca..."
 
 
 # ========== ./Client/ClientUI/Menu/MainMenu.cpp ==========
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 #: ./Client/ClientUI/Menu/SinglePlayerWindow.cpp:
 msgid "Singleplayer"
-msgstr ""
+msgstr "Giocatore singolo"
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 msgid "Multiplayer"
-msgstr ""
+msgstr "Multiplayer"
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 msgid "Settings"
-msgstr ""
+msgstr "Opzioni"
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 msgctxt "Main Menu Button"
 msgid "Credits"
-msgstr ""
+msgstr "Crediti"
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 msgid "Exit Game"
-msgstr ""
+msgstr "Esci"
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 #: ./Client/ClientUI/Menu/ServerBrowserWindow.cpp:
 msgid "Browse Servers"
-msgstr ""
+msgstr "Sfoglia tra i server"
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 msgid "Browse listed online servers"
-msgstr ""
+msgstr "Lista dei server attualmente online"
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 #: ./Client/ClientUI/Menu/OnlineMultiplayerWindow.cpp:
 msgid "Join via IP"
-msgstr ""
+msgstr "Unisciti tramite IP"
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 msgid "Join servers directly via IP"
-msgstr ""
+msgstr "Unisciti ai server direttamente tramite IP"
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 msgid "Join LAN"
-msgstr ""
+msgstr "Unisciti tramite LAN"
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 msgid "Dedicated Server"
-msgstr ""
+msgstr "Server dedicato"
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 msgid "Rent A Server"
-msgstr ""
+msgstr "Noleggia un server"
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 msgid "This will open the website of our official server hosting partner 4NetPlayers where you can rent an Avorion server."
@@ -25129,20 +25129,20 @@ msgstr ""
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 msgid "Rent a server from our official partner 4Netplayers."
-msgstr ""
+msgstr "Noleggia un server dal nostro partner 4Netplayers."
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 msgid "Game"
-msgstr ""
+msgstr "Gioco"
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 msgid "Video"
-msgstr ""
+msgstr "Video"
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 #: ./Client/ClientUI/Menu/PauseMenu.cpp:
 msgid "Sound"
-msgstr ""
+msgstr "Suono"
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 #: ./Client/ClientUI/Menu/PauseMenu.cpp:
@@ -25150,12 +25150,12 @@ msgstr ""
 #: ./install/avorion/data/scripts/player/ui/encyclopedia/chapters/basics.lua:
 #: ./install/avorion_server/data/scripts/player/ui/encyclopedia/chapters/basics.lua:
 msgid "Controls"
-msgstr ""
+msgstr "Controlli"
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 #: ./Client/ClientUI/Menu/PauseMenu.cpp:
 msgid "Mods"
-msgstr ""
+msgstr "Mod"
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 #: ./data/scripts/entity/piratecontainer.lua:
@@ -25165,11 +25165,11 @@ msgstr ""
 #: ./install/avorion_server/data/scripts/entity/piratecontainer.lua:
 #: ./install/avorion_server/data/scripts/entity/piratestash.lua:
 msgid "Open"
-msgstr ""
+msgstr "Apri"
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 msgid "Avorion Client %s\nPress F5!"
-msgstr ""
+msgstr "Avorion Client %s\nPremi F5!"
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 msgid "Latest Patch Notes"
@@ -25206,7 +25206,7 @@ msgstr ""
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 msgid "Visit the Avorion Website!"
-msgstr ""
+msgstr "Visita il sito di Avorion!"
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
 msgid "Detected some overlapping key bindings.\n\nPlease check your controls settings and make sure that no controls overlap."
