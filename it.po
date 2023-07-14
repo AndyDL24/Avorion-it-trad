@@ -212,477 +212,477 @@ msgstr ""
 #: ./install/avorion/data/scripts/player/ui/diplomacy.lua:
 #: ./install/avorion_server/data/scripts/player/ui/diplomacy.lua:
 msgid "Negotiate Relations"
-msgstr ""
+msgstr "Negozia le relazioni"
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Edit Map"
-msgstr ""
+msgstr "Modifica mappa"
 
 #: ./Common/Game/Alliance.cpp:
 msgctxt "Alliance Member Rank"
 msgid "Admiral"
-msgstr ""
+msgstr "Ammiraglio"
 
 #: ./Common/Game/Alliance.cpp:
 msgctxt "Alliance Member Rank"
 msgid "General"
-msgstr ""
+msgstr "Generale"
 
 #: ./Common/Game/Alliance.cpp:
 msgctxt "Alliance Member Rank"
 msgid "Officer"
-msgstr ""
+msgstr "Ufficiale"
 
 #: ./Common/Game/Alliance.cpp:
 msgctxt "Alliance Member Rank"
 msgid "Member"
-msgstr ""
+msgstr "Membro"
 
 #: ./Common/Game/Alliance.cpp:
 msgctxt "Alliance Member Rank"
 msgid "Rookie"
-msgstr ""
+msgstr "Principiante"
 
 #: ./Common/Game/Alliance.cpp:
 msgid "Leader"
-msgstr ""
+msgstr "Leader"
 
 
 # ========== ./Common/Game/Blocks/BaseBlock.cpp ==========
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Smart Hull"
-msgstr ""
+msgstr "Scafo intelligente"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Smart Blank Hull"
-msgstr ""
+msgstr "Scafo intelligente vuoto"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Engine"
-msgstr ""
+msgstr "Motore"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Stone"
-msgstr ""
+msgstr "Pietra"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Cargo Bay"
-msgstr ""
+msgstr "Baia del carico"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Crew Quarters"
-msgstr ""
+msgstr "Alloggio equipaggio"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Edge Crew Quarters"
-msgstr ""
+msgstr "Alloggio equipaggio di bordo"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner Crew Quarters 1"
-msgstr ""
+msgstr "Angolo Alloggi per equipaggi 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner Crew Quarters 2"
-msgstr ""
+msgstr "Angolo Alloggi per equipaggi 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner Crew Quarters 3"
-msgstr ""
+msgstr "Angolo Alloggi per equipaggi 3"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner Crew Quarters 1"
-msgstr ""
+msgstr "Alloggio per equipaggio ad angolo ritorto 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner Crew Quarters 2"
-msgstr ""
+msgstr "Alloggio per equipaggio ad angolo ritorto 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Flat Corner Crew Quarters"
-msgstr ""
+msgstr "Alloggio equipaggio ad angolo piatto"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Thruster"
-msgstr ""
+msgstr "Propulsore"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Directional Thruster"
-msgstr ""
+msgstr "Propulsore direzionale"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Armor"
-msgstr ""
+msgstr "Corazza"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Framework"
-msgstr ""
+msgstr "Struttura"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Hangar"
-msgstr ""
+msgstr "Hangar"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Dock"
-msgstr ""
+msgstr "Ormeggio"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Shield Generator"
-msgstr ""
+msgstr "Generatore di scudo"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Generator"
-msgstr ""
+msgstr "Generatore"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Energy Container"
-msgstr ""
+msgstr "Contenitore di energia"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Integrity Field Generator"
-msgstr ""
+msgstr "Generatore di campo di integrità"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Computer Core"
-msgstr ""
+msgstr "Nucleo del computer"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Hyperspace Core"
-msgstr ""
+msgstr "Nucleo Iperspaziale"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Solar Panel"
-msgstr ""
+msgstr "Pannello solare"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Light"
-msgstr ""
+msgstr "Luce"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Colored Light"
-msgstr ""
+msgstr "Luce colorata"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Flashing Light 1"
-msgstr ""
+msgstr "Luce lampeggiante 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Flashing Light 2"
-msgstr ""
+msgstr "Luce lampeggiante 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Flashing Light 3"
-msgstr ""
+msgstr "Luce lampeggiante 3"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Transporter"
-msgstr ""
+msgstr "Trasportatore"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Academy"
-msgstr ""
+msgstr "Accademia"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Cloning Pods"
-msgstr ""
+msgstr "Capsule di clonazione"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Smart Edge"
-msgstr ""
+msgstr "Bordo intelligente"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Smart Corner 1"
-msgstr ""
+msgstr "Angolo intelligente 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Smart Corner 2"
-msgstr ""
+msgstr "Angolo intelligente 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Smart Corner 3"
-msgstr ""
+msgstr "Angolo intelligente 3"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Smart Twisted Corner 1"
-msgstr ""
+msgstr "Angolo ritorto intelligente 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Smart Twisted Corner 2"
-msgstr ""
+msgstr "Angolo ritorto intelligente 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Smart Flat Corner"
-msgstr ""
+msgstr "Angolo piatto intelligente"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Edge Armor"
-msgstr ""
+msgstr "Armatura perimetrale"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner Armor 1"
-msgstr ""
+msgstr "Armatura d'angolo 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner Armor 2"
-msgstr ""
+msgstr "Armatura d'angolo 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner Armor 3"
-msgstr ""
+msgstr "Armatura d'angolo 3"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner Armor 1"
-msgstr ""
+msgstr "Armatura ad angolo ritorto 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner Armor 2"
-msgstr ""
+msgstr "Armatura ad angolo ritorto 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Flat Corner Armor"
-msgstr ""
+msgstr "Armatura ad angolo piatto"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glow"
-msgstr ""
+msgstr "Incandescente"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glow Edge"
-msgstr ""
+msgstr "Bordo incandescente"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glow Corner 1"
-msgstr ""
+msgstr "Angolo incandescente 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glow Corner 2"
-msgstr ""
+msgstr "Angolo incandescente 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glow Corner 3"
-msgstr ""
+msgstr "Angolo incandescente 3"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glow Twisted Corner 1"
-msgstr ""
+msgstr "Angolo ritorto incandescente 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glow Twisted Corner 2"
-msgstr ""
+msgstr "Angolo ritorto incandescente 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glow Flat Corner"
-msgstr ""
+msgstr "Angolo piatto incandescente"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glass"
-msgstr ""
+msgstr "Vetro"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glass Edge"
-msgstr ""
+msgstr "Bordo in vetro"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glass Corner 1"
-msgstr ""
+msgstr "Angolo in vetro 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glass Corner 2"
-msgstr ""
+msgstr "Angolo in vetro 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glass Corner 3"
-msgstr ""
+msgstr "Angolo in vetro 3"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glass Twisted Corner 1"
-msgstr ""
+msgstr "Angolo ritorto in vetro 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glass Twisted Corner 2"
-msgstr ""
+msgstr "Angolo ritorto in vetro 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glass Flat Corner"
-msgstr ""
+msgstr "Angolo piatto in vetro"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Reflector"
-msgstr ""
+msgstr "Catarifrangente"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Reflector Edge"
-msgstr ""
+msgstr "Catarifrangente intelligente"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Reflector Corner 1"
-msgstr ""
+msgstr "Catarifrangente ad angolo 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Reflector Corner 2"
-msgstr ""
+msgstr "Catarifrangente ad angolo 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Reflector Corner 3"
-msgstr ""
+msgstr "Catarifrangente ad angolo 3"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Reflector Twisted Corner 1"
-msgstr ""
+msgstr "Angolo ritorto catarifrangente 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Reflector Twisted Corner 2"
-msgstr ""
+msgstr "Angolo ritorto catarifrangente 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Reflector Flat Corner"
-msgstr ""
+msgstr "Catarifrangente piatto ad angolo"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Stone Edge"
-msgstr ""
+msgstr "Bordo di pietra"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Stone Corner 1"
-msgstr ""
+msgstr "Andolo di pietra 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Stone Corner 2"
-msgstr ""
+msgstr "Andolo di pietra 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Stone Corner 3"
-msgstr ""
+msgstr "Andolo di pietra 3"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Stone Twisted Corner 1"
-msgstr ""
+msgstr "Angolo ritorto di pietra 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Stone Twisted Corner 2"
-msgstr ""
+msgstr "Angolo ritorto di pietra 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Stone Flat Corner"
-msgstr ""
+msgstr "Angolo piatto di pietra"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Hologram"
-msgstr ""
+msgstr "Ologramma"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Hologram Edge"
-msgstr ""
+msgstr "Ologramma intelligente"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Hologram Corner 1"
-msgstr ""
+msgstr "Ologramma ad angolo 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Hologram Corner 2"
-msgstr ""
+msgstr "Ologramma ad angolo 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Hologram Corner 3"
-msgstr ""
+msgstr "Ologramma ad angolo 3"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Hologram Twisted Corner 1"
-msgstr ""
+msgstr "Ologramma ritorto ad angolo 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Hologram Twisted Corner 2"
-msgstr ""
+msgstr "Ologramma ritorto ad angolo 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Hologram Flat Corner"
-msgstr ""
+msgstr "Ologramma piatto ad angolo"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
