@@ -687,732 +687,732 @@ msgstr "Ologramma piatto ad angolo"
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rich Stone"
-msgstr ""
+msgstr "Pietra pregiata"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rich Stone Edge"
-msgstr ""
+msgstr "Bordo di pietra pregiata"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rich Stone Corner 1"
-msgstr ""
+msgstr "Pietra pregiata angolare 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rich Stone Corner 2"
-msgstr ""
+msgstr "Pietra pregiata angolare 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rich Stone Corner 3"
-msgstr ""
+msgstr "Pietra pregiata angolare 3"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rich Stone Twisted Corner 1"
-msgstr ""
+msgstr "Pietra pregiata ritorta angolare 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rich Stone Twisted Corner 2"
-msgstr ""
+msgstr "Pietra pregiata ritorta angolare 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rich Stone Flat Corner"
-msgstr ""
+msgstr "Pietra pregiata piatta angolare"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Super Rich Stone"
-msgstr ""
+msgstr "Super pietra pregiata"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Super Rich Stone Edge"
-msgstr ""
+msgstr "Bordo in super pietra pregiata"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Super Rich Stone Corner 1"
-msgstr ""
+msgstr "Super pietra pregiata angolare 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Super Rich Stone Corner 2"
-msgstr ""
+msgstr "Super pietra pregiata angolare 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Super Rich Stone Corner 3"
-msgstr ""
+msgstr "Super pietra pregiata angolare 3"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Super Rich Stone Twisted Corner 1"
-msgstr ""
+msgstr "Super pietra pregiata ritorta angolare 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Super Rich Stone Twisted Corner 2"
-msgstr ""
+msgstr "Super pietra pregiata ritorta angolare 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Super Rich Stone Flat Corner"
-msgstr ""
+msgstr "Super pietra pregiata piatta angolare"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rift Stone"
-msgstr ""
+msgstr "Pietra incrinata"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rift Stone Edge"
-msgstr ""
+msgstr "Bordo in pietra incrinata"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rift Stone Corner 1"
-msgstr ""
+msgstr "Pietra incrinata angolare 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rift Stone Corner 2"
-msgstr ""
+msgstr "Pietra incrinata angolare 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rift Stone Corner 3"
-msgstr ""
+msgstr "Pietra incrinata angolare 3"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rift Stone Twisted Corner 1"
-msgstr ""
+msgstr "Pietra incrinata ritorta angolare 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rift Stone Twisted Corner 2"
-msgstr ""
+msgstr "Pietra incrinata ritorta angolare 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rift Stone Flat Corner"
-msgstr ""
+msgstr "Pietra incrinata piatta angolare"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glow Stone"
-msgstr ""
+msgstr "Pietra luminosa"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glow Stone Edge"
-msgstr ""
+msgstr "Bordo in pietra luminosa"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glow Stone Corner 1"
-msgstr ""
+msgstr "Pietra luminosa angolare 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glow Stone Corner 2"
-msgstr ""
+msgstr "Pietra luminosa angolare 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glow Stone Corner 3"
-msgstr ""
+msgstr "Pietra luminosa angolare 3"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glow Stone Twisted Corner 1"
-msgstr ""
+msgstr "Pietra luminosa ritorta angolare 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glow Stone Twisted Corner 2"
-msgstr ""
+msgstr "Pietra luminosa ritorta angolare 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Glow Stone Flat Corner"
-msgstr ""
+msgstr "Pietra luminosa piatta angolare"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rich Rift Stone"
-msgstr ""
+msgstr "Pietra incrinata pregiata"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rich Rift Stone Edge"
-msgstr ""
+msgstr "Bordo in pietra pregiata incrinata"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rich Rift Stone Corner 1"
-msgstr ""
+msgstr "Pietra pregiata incrinata angolare"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rich Rift Stone Corner 2"
-msgstr ""
+msgstr "Pietra pregiata incrinata angolare 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rich Rift Stone Corner 3"
-msgstr ""
+msgstr "Pietra pregiata incrinata angolare 3"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rich Rift Stone Twisted Corner 1"
-msgstr ""
+msgstr "Pietra pregiata incrinata ritorta angolare 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rich Rift Stone Twisted Corner 2"
-msgstr ""
+msgstr "Pietra pregiata incrinata ritorta angolare 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Rich Rift Stone Flat Corner"
-msgstr ""
+msgstr "Pietra pregiata incrinata piatta angolare"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Super Rich Rift Stone"
-msgstr ""
+msgstr "Super pietra pregiata incrinata"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Super Rich Rift Stone Edge"
-msgstr ""
+msgstr "Bordo in super pietra pregiata incrinata"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Super Rich Rift Stone Corner 1"
-msgstr ""
+msgstr "Super pietra pregiata incrinata angolare 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Super Rich Rift Stone Corner 2"
-msgstr ""
+msgstr "Super pietra pregiata incrinata angolare 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Super Rich Rift Stone Corner 3"
-msgstr ""
+msgstr "Super pietra pregiata incrinata angolare 3"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Super Rich Rift Stone Twisted Corner 1"
-msgstr ""
+msgstr "Super pietra pregiata incrinata ritorta angolare 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Super Rich Rift Stone Twisted Corner 2"
-msgstr ""
+msgstr "Super pietra pregiata incrinata ritorta angolare 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Super Rich Rift Stone Flat Corner"
-msgstr ""
+msgstr "Super pietra incrinata piatta angolare"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Portal"
-msgstr ""
+msgstr "Portale"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Turret Rotation Lock"
-msgstr ""
+msgstr "Rotazione torrertta bloccata"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Turret Rotation Lock Edge"
-msgstr ""
+msgstr "Bordo della rotazione torretta bloccata"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Gyro Array"
-msgstr ""
+msgstr "Giroscopio"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Inertia Dampener"
-msgstr ""
+msgstr "Smorzatori di inerzia"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Flight Recorder"
-msgstr ""
+msgstr "Registratore di volo"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Assembly"
-msgstr ""
+msgstr "Assemblaggio"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Torpedo Launcher"
-msgstr ""
+msgstr "Lanciamissili"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Frontal Torpedo Launcher"
-msgstr ""
+msgstr "Lanciamissili frontale"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Torpedo Storage"
-msgstr ""
+msgstr "Deposito di missili"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Turret Base"
-msgstr ""
+msgstr "Base della torretta"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Edge Turret Base"
-msgstr ""
+msgstr "Bordo della base della torretta"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Armored Turret Base"
-msgstr ""
+msgstr "Base della torretta corazzata"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Armored Edge Turret Base"
-msgstr ""
+msgstr "Bordo della Base della torretta corazzata"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Ship Name"
-msgstr ""
+msgstr "Nome della nave"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Ship Name Edge"
-msgstr ""
+msgstr "Bordo del nome della nave"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Emblem"
-msgstr ""
+msgstr "Emblema"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Emblem Edge"
-msgstr ""
+msgstr "Bordo di emblema"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Wreckage"
-msgstr ""
+msgstr "Rottami"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Wreckage Edge"
-msgstr ""
+msgstr "Bordo di rottami"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Wreckage Corner 1"
-msgstr ""
+msgstr "Rottami angolari 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Wreckage Corner 2"
-msgstr ""
+msgstr "Rottami angolari 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Wreckage Corner 3"
-msgstr ""
+msgstr "Rottami angolari 3"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Wreckage Twisted Corner 1"
-msgstr ""
+msgstr "Rottami contorti angolari 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Wreckage Twisted Corner 2"
-msgstr ""
+msgstr "Rottami contorti angolari 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Wreckage Flat Corner"
-msgstr ""
+msgstr "Rottami piatti angolari"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Hull (Alternate Pattern A)"
-msgstr ""
+msgstr "Scafo (Modello alternativo A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Edge (Alternate Pattern A)"
-msgstr ""
+msgstr "Bordo (Modello alternativo A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 1 (Alternate Pattern A)"
-msgstr ""
+msgstr "Angolo 1 (Modello alternativo A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 2 (Alternate Pattern A)"
-msgstr ""
+msgstr "Bordo 2 (Modello alternativo A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 3 (Alternate Pattern A)"
-msgstr ""
+msgstr "Bordo 3 (Modello alternativo A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Flat Corner (Alternate Pattern A)"
-msgstr ""
+msgstr "Angolo piatto (Modello alternativo A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner 1 (Alternate Pattern A)"
-msgstr ""
+msgstr "Angolo contorto 1 (Modello alternativo A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner 2 (Alternate Pattern A)"
-msgstr ""
+msgstr "Angolo contorto 2 (Modello alternativo A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Hull (Alternate Pattern B)"
-msgstr ""
+msgstr "Scafo (Modello alternativo B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Edge (Alternate Pattern B)"
-msgstr ""
+msgstr "Bordo (Modello alternativo B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 1 (Alternate Pattern B)"
-msgstr ""
+msgstr "Angolo 1 (Modello alternativo B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 2 (Alternate Pattern B)"
-msgstr ""
+msgstr "Angolo 2 (Modello alternativo B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 3 (Alternate Pattern B)"
-msgstr ""
+msgstr "Angolo 3 (Modello alternativo B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Flat Corner (Alternate Pattern B)"
-msgstr ""
+msgstr "Angolo piatto (Modello alternativo B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner 1 (Alternate Pattern B)"
-msgstr ""
+msgstr "Angolo contorto 1 (Modello alternativo B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner 2 (Alternate Pattern B)"
-msgstr ""
+msgstr "Angolo contorto 2 (Modello alternativo B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Hull (Vivid Colors)"
-msgstr ""
+msgstr "Scafo (colori vivaci)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Edge (Vivid Colors)"
-msgstr ""
+msgstr "Bordo (colori vivaci)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 1 (Vivid Colors)"
-msgstr ""
+msgstr "Angolo 1 (colori vivaci)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 2 (Vivid Colors)"
-msgstr ""
+msgstr "Angolo 2 (colori vivaci)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 3 (Vivid Colors)"
-msgstr ""
+msgstr "Angolo 3 (colori vivaci)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Flat Corner (Vivid Colors)"
-msgstr ""
+msgstr "Angolo piatto (colori vivaci)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner 1 (Vivid Colors)"
-msgstr ""
+msgstr "Angolo contorto 1 (colori vivaci)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner 2 (Vivid Colors)"
-msgstr ""
+msgstr "Angolo contorto 2 (colori vivaci)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Hull (White Stripes A)"
-msgstr ""
+msgstr "Scafo (Strisce bianche A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Edge (White Stripes A)"
-msgstr ""
+msgstr "Bordo (Strisce bianche A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 1 (White Stripes A)"
-msgstr ""
+msgstr "Angolo 1 (Strisce bianche A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 2 (White Stripes A)"
-msgstr ""
+msgstr "Angolo 2 (Strisce bianche A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 3 (White Stripes A)"
-msgstr ""
+msgstr "Angolo 3 (Strisce bianche A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Flat Corner (White Stripes A)"
-msgstr ""
+msgstr "Angolo piatto (Strisce bianche A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner 1 (White Stripes A)"
-msgstr ""
+msgstr "Angolo contorto 1 (Strisce bianche A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner 2 (White Stripes A)"
-msgstr ""
+msgstr "Angolo contorto 2 (Strisce bianche A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Hull (White Stripes B)"
-msgstr ""
+msgstr "Cafo (Strisce bianche B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Edge (White Stripes B)"
-msgstr ""
+msgstr "Bordo (Strisce bianche B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 1 (White Stripes B)"
-msgstr ""
+msgstr "Angolo 1 (Strisce bianche B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 2 (White Stripes B)"
-msgstr ""
+msgstr "Angolo 2 (Strisce bianche B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 3 (White Stripes B)"
-msgstr ""
+msgstr "Angolo 3 (Strisce bianche B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Flat Corner (White Stripes B)"
-msgstr ""
+msgstr "Angolo piatto (Strisce bianche B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner 1 (White Stripes B)"
-msgstr ""
+msgstr "Angolo contorto 1 (Strisce bianche B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner 2 (White Stripes B)"
-msgstr ""
+msgstr "Angolo contorto 2 (Strisce bianche B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Hull (White Stripes C)"
-msgstr ""
+msgstr "Scafo (Strisce bianche C)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Edge (White Stripes C)"
-msgstr ""
+msgstr "Bordo (Strisce bianche C)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 1 (White Stripes C)"
-msgstr ""
+msgstr "Angolo 1 (Strisce bianche C)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 2 (White Stripes C)"
-msgstr ""
+msgstr "Angolo 2 (Strisce bianche C)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 3 (White Stripes C)"
-msgstr ""
+msgstr "Angolo 3 (Strisce bianche C)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Flat Corner (White Stripes C)"
-msgstr ""
+msgstr "Angolo piatto (Strisce bianche C)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner 1 (White Stripes C)"
-msgstr ""
+msgstr "Angolo contorto 1 (Strisce bianche C)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner 2 (White Stripes C)"
-msgstr ""
+msgstr "Angolo contorto 2 (Strisce bianche C)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Hull (Dark Stripes A)"
-msgstr ""
+msgstr "Scafo (Strisce scure A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Edge (Dark Stripes A)"
-msgstr ""
+msgstr "Bordo (Strisce scure A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 1 (Dark Stripes A)"
-msgstr ""
+msgstr "Angolo 1 (Strisce scure A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 2 (Dark Stripes A)"
-msgstr ""
+msgstr "Angolo 2 (Strisce scure A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 3 (Dark Stripes A)"
-msgstr ""
+msgstr "Angolo 3 (Strisce scure A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Flat Corner (Dark Stripes A)"
-msgstr ""
+msgstr "Angolo piatto (Strisce scure A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner 1 (Dark Stripes A)"
-msgstr ""
+msgstr "Angolo contorto (Strisce scure A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner 2 (Dark Stripes A)"
-msgstr ""
+msgstr "Angolo contorto (Strisce scure A)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Hull (Dark Stripes B)"
-msgstr ""
+msgstr "Scafo (Strisce scure B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Edge (Dark Stripes B)"
-msgstr ""
+msgstr "Bordo (Strisce scure B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 1 (Dark Stripes B)"
-msgstr ""
+msgstr "Angolo 1 (Strisce scure B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 2 (Dark Stripes B)"
-msgstr ""
+msgstr "Angolo 2 (Strisce scure B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 3 (Dark Stripes B)"
-msgstr ""
+msgstr "Angolo 3 (Strisce scure B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Flat Corner (Dark Stripes B)"
-msgstr ""
+msgstr "Angolo piatto (Strisce scure B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner 1 (Dark Stripes B)"
-msgstr ""
+msgstr "Angolo contorto 1 (Strisce scure B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner 2 (Dark Stripes B)"
-msgstr ""
+msgstr "Angolo contorto 2 (Strisce scure B)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Hull (Dark Stripes C)"
-msgstr ""
+msgstr "Scafo (Strisce scure C)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Edge (Dark Stripes C)"
-msgstr ""
+msgstr "Bordo (Strisce scure C)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 1 (Dark Stripes C)"
-msgstr ""
+msgstr "Angolo 1 (Strisce scure C)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 2 (Dark Stripes C)"
-msgstr ""
+msgstr "Angolo 2 (Strisce scure C)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 3 (Dark Stripes C)"
-msgstr ""
+msgstr "Angolo 3 (Strisce scure C)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Flat Corner (Dark Stripes C)"
-msgstr ""
+msgstr "Angolo piatto (Strisce scure C)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner 1 (Dark Stripes C)"
-msgstr ""
+msgstr "Angolo contorto 1 (Strisce scure C)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner 2 (Dark Stripes C)"
-msgstr ""
+msgstr "Angolo contorto 2 (Strisce scure C)"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
@@ -1422,82 +1422,82 @@ msgstr ""
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Scaffold Edge"
-msgstr ""
+msgstr "Impalcatura"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Scaffold Corner 1"
-msgstr ""
+msgstr "Impalcatura angolare 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Scaffold Corner 2"
-msgstr ""
+msgstr "Impalcatura angolare 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Scaffold Corner 3"
-msgstr ""
+msgstr "Impalcatura angolare 3"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Scaffold Flat Corner"
-msgstr ""
+msgstr "Impalcatura piatte angolari"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Scaffold Twisted Corner 1"
-msgstr ""
+msgstr "Impalcatura contorte angolari 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Scaffold Twisted Corner 2"
-msgstr ""
+msgstr "Impalcatura contorte angolari 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Hull"
-msgstr ""
+msgstr "Scafo"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Edge"
-msgstr ""
+msgstr "Bordo"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 1"
-msgstr ""
+msgstr "Angolo 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 2"
-msgstr ""
+msgstr "Angolo 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Corner 3"
-msgstr ""
+msgstr "Angolo 3"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Flat Corner"
-msgstr ""
+msgstr "Angolo piatto"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner 1"
-msgstr ""
+msgstr "Angolo contorto 1"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Twisted Corner 2"
-msgstr ""
+msgstr "Angolo contorto 2"
 
 #: ./Common/Game/Blocks/BaseBlock.cpp:
 msgctxt "Block"
 msgid "Blank Hull"
-msgstr ""
+msgstr "Scafo vuoto"
 
 
 # ========== ./Common/Game/Blocks/Blocks.cpp ==========
