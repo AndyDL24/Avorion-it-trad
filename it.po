@@ -1503,151 +1503,151 @@ msgstr "Scafo vuoto"
 # ========== ./Common/Game/Blocks/Blocks.cpp ==========
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Functional-Block version of the normal hull. Contributes towards processing power."
-msgstr ""
+msgstr "Versione funzionale-blocco dello scafo normale. Contribuisce alla potenza di elaborazione."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "The standard hull that makes up most of a ship's, well, hull. No special functionality."
-msgstr ""
+msgstr "Lo scafo standard che costituisce la maggior parte dello scafo di una nave. Nessuna funzionalità speciale."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Strong, heavy block that adds lots of HP to your ship. Armor blocks take less collision damage and stop piercing projectiles, like railgun projectiles."
-msgstr ""
+msgstr "Blocco forte e pesante che aggiunge molti HP alla nave. I blocchi corazzati subiscono meno danni da collisione e bloccano i proiettili perforanti, come quelli delle armi a rotaia."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Main engine that propels your ship forward. Engines can only point backwards. Increases acceleration and maximum velocity (diminishing returns)."
-msgstr ""
+msgstr "Motore principale che spinge la nave in avanti. I motori possono puntare solo all'indietro. Aumenta l'accelerazione e la velocità massima (rendimenti decrescenti)."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Storage for trading goods. This is required to transport goods on your ship."
-msgstr ""
+msgstr "Deposito per le merci commerciali. È necessario per trasportare le merci sulla nave."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Housing for crew members. Overpopulating your ship is possible, but morale will drop after some time."
-msgstr ""
+msgstr "Alloggio per i membri dell'equipaggio. È possibile sovrappopolare la nave, ma il morale cala dopo qualche tempo."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Multi-direction thruster that can turn your ship into any direction. Allows strafing. Fragile. Has less power on each direction when compared to Directional Thrusters, but can be used in several directions simultaneously. Thrusters also correct your course and reduce drift."
-msgstr ""
+msgstr "Propulsore multidirezionale che può far girare la nave in qualsiasi direzione. Consente lo spostamento laterale. Fragile. Ha una potenza inferiore per ogni direzione rispetto ai propulsori direzionali, ma può essere utilizzato in più direzioni contemporaneamente. I propulsori correggono anche la rotta e riducono la deriva."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Two-direction thruster that can turn your ship. Allows strafing. Fragile. Has more power than the omni-direction thrusters, but must be placed more carefully and can only be used in 2 directions. Thrusters also correct your course and reduce drift."
-msgstr ""
+msgstr "Propulsore bidirezionale in grado di far ruotare la nave. Consente lo spostamento laterale. Fragile. Ha più potenza dei propulsori omnidirezionali, ma deve essere posizionato con più attenzione e può essere usato solo in due direzioni. I propulsori correggono anche la rotta e riducono la deriva."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Contains an array of many gyros that can turn your ship into any direction. Fragile. Strength increases with better materials."
-msgstr ""
+msgstr "Contiene una serie di numerosi giroscopi che possono far girare la nave in qualsiasi direzione. Fragile. La resistenza aumenta con materiali migliori."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Inertia dampeners create artificial subspace friction and help brake your ship. They also correct your course and reduce drift."
-msgstr ""
+msgstr "Gli smorzatori d'inerzia creano un attrito artificiale nel subspazio e aiutano a frenare la nave. Inoltre, correggono la rotta e riducono la deriva."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Very light and cheap block with little HP. No special functionality, mostly aesthetic."
-msgstr ""
+msgstr "Blocco molto leggero ed economico con pochi HP. Nessuna funzionalità particolare, soprattutto estetica."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Storage and starting point for fighters."
-msgstr ""
+msgstr "Deposito e punto di partenza per i combattenti."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "On stations, this block creates docking positions for interaction. On ships, this block is used to dock other objects."
-msgstr ""
+msgstr "Nelle stazioni, questo blocco crea posizioni di attracco per l'interazione. Sulle navi, questo blocco viene utilizzato per agganciare altri oggetti."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "All turrets built onto this block are immobilized and won't turn."
-msgstr ""
+msgstr "Tutte le torrette costruite su questo blocco sono immobilizzate e non girano."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "With this block is on your ship, when it gets destroyed, its destruction location is marked on the map. For that to work, the block must be intact at the moment of destruction."
-msgstr ""
+msgstr "Con questo blocco sulla nave, quando viene distrutto, la sua posizione di distruzione viene segnata sulla mappa. Per funzionare, il blocco deve essere intatto al momento della distruzione."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Essentially a factory assembly line. Speeds up production of factories or fighters. Usually seen on stations, but nothing stops you from adding it to your ships."
-msgstr ""
+msgstr "Essenzialmente una catena di montaggio di una fabbrica. Accelera la produzione di fabbriche o di caccia. Di solito si trova nelle stazioni, ma nulla vieta di aggiungerla alle vostre navi."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Ejection position for torpedoes. Creates a torpedo shaft on your ship that will store torpedoes and can launch them."
-msgstr ""
+msgstr "Posizione di espulsione per i siluri. Crea un condotto per siluri sulla nave che può contenere siluri e lanciarli."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Storage for more torpedoes, if your torpedo shafts aren't enough."
-msgstr ""
+msgstr "Deposito per altri siluri, se i condotti dei siluri non sono sufficienti."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "This block can hold a special design (reskin) for turrets. A turret built onto this block will have the new design."
-msgstr ""
+msgstr "Questo blocco può contenere un design speciale (reskin) per le torrette. Una torretta costruita su questo blocco avrà il nuovo design."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Creates an energy shield around your entire ship. The higher the material used for this, the stronger the generated shield."
-msgstr ""
+msgstr "Crea uno scudo energetico intorno all'intera nave. Più alto è il materiale utilizzato, più forte sarà lo scudo generato."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Increases the size of the ship's battery."
-msgstr ""
+msgstr "Aumenta le dimensioni della batteria della nave."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Generates energy. Contains an anti-matter chamber and is very sensitive to hyperspace jumps. That's why, when built onto a ship, it has to be carefully planned with the assistance of a Shipyard."
-msgstr ""
+msgstr "Genera energia. Contiene una camera di antimateria ed è molto sensibile ai salti nell'iperspazio. Per questo motivo, quando viene montato su una nave, deve essere attentamente pianificato con l'assistenza di un Cantiere navale."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Generates energy. Contains an anti-matter chamber and is very sensitive to hyperspace jumps."
-msgstr ""
+msgstr "Genera energia. Contiene una camera di antimateria ed è molto sensibile ai salti nell'iperspazio."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "More than just the poor captain's shield generator! It creates an integrity field around it and improves the strength of the blocks inside. Blocks inside the field take only 25% damage and don't break as easily."
-msgstr ""
+msgstr "Molto più di un semplice generatore di scudi del povero capitano! Crea un campo di integrità intorno a sé e migliora la resistenza dei blocchi al suo interno. I blocchi all'interno del campo subiscono solo il 25% dei danni e non si rompono facilmente."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Contributes a large amount of processing power to the ship so you can unlock more subsystem sockets with a smaller ship."
-msgstr ""
+msgstr "Contribuisce a una grande quantità di potenza di elaborazione della nave, in modo da poter sbloccare più prese del sottosistema con una nave più piccola."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Increases the hyperspace jump distance of your ship (diminishing returns). Contains very intricate, hyperspace-sensitive technology. That's why, when built onto a ship, it has to be carefully planned with the assistance of a Shipyard."
-msgstr ""
+msgstr "Aumenta la distanza di salto nell'iperspazio della vostra nave (con rendimenti decrescenti). Contiene una tecnologia molto intricata e sensibile all'iperspazio. Per questo motivo, quando viene installata su una nave, deve essere attentamente pianificata con l'assistenza di un Cantiere navale."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Increases the hyperspace jump distance of your ship (diminishing returns). Contains very intricate, hyperspace-sensitive technology."
-msgstr ""
+msgstr "Aumenta la distanza di salto nell'iperspazio della vostra nave (con rendimenti decrescenti). Contiene una tecnologia molto intricata e sensibile all'iperspazio."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Makes it possible to interact with stations over a higher distance, as if you were docked."
-msgstr ""
+msgstr "Permette di interagire con le stazioni a una distanza maggiore, come se si fosse attraccati."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Makes it possible to send crewmembers to the academy to train them for a specialist position. While a crewmember is being trained, they're not counting towards the workforce."
-msgstr ""
+msgstr "Permette di inviare i membri dell'equipaggio all'accademia per addestrarli a una posizione di specialista. Mentre un membro dell'equipaggio viene addestrato, non conta per la forza lavoro."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Makes it possible to clone crewmembers and create new, untrained crewmen on your ship. You need at least 1 crewman on your ship for this to work."
-msgstr ""
+msgstr "Permette di clonare i membri dell'equipaggio e di creare nuovi membri dell'equipaggio non addestrati sulla propria nave. È necessario avere almeno un membro dell'equipaggio sulla propria nave perché questo funzioni."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Easy but fragile technology that creates energy."
-msgstr ""
+msgstr "Una tecnologia facile ma fragile che crea energia."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "This block creates a tiny light a certain distance away. Purely aesthetic."
-msgstr ""
+msgstr "Questo blocco crea una piccola luce a una certa distanza. Puramente estetico."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "This block creates a tiny, flashing light a certain distance away. Purely aesthetic."
-msgstr ""
+msgstr "Questo blocco crea una piccola luce lampeggiante a una certa distanza. Puramente estetico."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "This block shines very brightly. Purely aesthetic."
-msgstr ""
+msgstr "Questo blocco è molto luminoso. Puramente estetico."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Glass block. Purely aesthetic."
-msgstr ""
+msgstr "Blocco di vetro. Puramente estetico."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Very reflective block. Purely aesthetic."
-msgstr ""
+msgstr "Blocco molto riflettente. Puramente estetico."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Stone, as taken from asteroids. Heavy, cheap and high durability. Until someone shows up with a mining laser. Mostly aesthetic."
-msgstr ""
+msgstr "Pietra, come quella prelevata dagli asteroidi. Pesante, economica e di grande durata. Finché non arriva qualcuno con un laser da miniera. Per lo più estetico."
 
 #: ./Common/Game/Blocks/Blocks.cpp:
 msgid "Holographic block, shots and objects just pass through this. Purely aesthetic."
