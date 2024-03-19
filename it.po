@@ -41,7 +41,7 @@ msgstr "Una delle vostre navi non può seguire il suo obiettivo perché non ries
 msgid "One of your crafts can't follow its target %s because it won't fit through a wormhole or gate."
 msgstr "Una delle vostre navi non può seguire il suo obiettivo perché non può passare attraverso un wormhole o un portale."
 
-#: ./Common/Game/AI/FollowState.cpp:					
+#: ./Common/Game/AI/FollowState.cpp:
 msgid "One of your crafts has lost track of its target %s."
 msgstr "Una delle tue navi ha perso le tracce del suo bersaglio %s."
 
@@ -2902,31 +2902,37 @@ msgstr[1] "Membri dell'equipaggio"
 msgctxt "Damage Type"
 msgid "None"
 msgstr "Nessuno"
+
 #: ./Common/Game/DamageType.cpp:
 #: ./data/scripts/lib/damagetypeutility.lua:
 msgctxt "Damage Type"
 msgid "Physical"
 msgstr "Fisico"
+
 #: ./Common/Game/DamageType.cpp:
 #: ./data/scripts/lib/damagetypeutility.lua:
 msgctxt "Damage Type"
 msgid "Energy"
 msgstr "Energia"
+
 #: ./Common/Game/DamageType.cpp:
 #: ./data/scripts/lib/damagetypeutility.lua:
 msgctxt "Damage Type"
 msgid "Anti Matter"
 msgstr "Anti-Materia"
+
 #: ./Common/Game/DamageType.cpp:
 #: ./data/scripts/lib/damagetypeutility.lua:
 msgctxt "Damage Type"
 msgid "Electric"
 msgstr "Elettrico"
+
 #: ./Common/Game/DamageType.cpp:
 #: ./data/scripts/lib/damagetypeutility.lua:
 msgctxt "Damage Type"
 msgid "Plasma"
 msgstr "Plasma"
+
 #: ./Common/Game/DamageType.cpp:
 #: ./data/scripts/lib/damagetypeutility.lua:
 msgctxt "Damage Type"
@@ -3179,6 +3185,7 @@ msgstr "Deve iniziare con una lettera!"
 #: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
 msgid "Beginner"
 msgstr "Principiante"
+
 #: ./Common/Game/GameUtility.cpp:
 #: ./data/scripts/lib/tradingmanager.lua:
 #: ./data/scripts/player/missions/exploresector/exploresector.lua:
@@ -3504,6 +3511,7 @@ msgstr "Nessun pensionante"
 #: ./Common/Game/GameUtility.cpp:
 msgid "It's impossible to repair in this environment."
 msgstr "È impossibile riparare in questo ambiente."
+
 #: ./Common/Game/GameUtility.cpp:
 #: ./data/scripts/entity/merchants/repairdock.lua:
 msgid "You can't repair your ship while enemies are nearby."
@@ -3675,11 +3683,13 @@ msgstr "Hai bisogno di molte risorse"
 #: ./Common/Game/IShipOwner.cpp:
 msgid "Warning: not all turrets could be restored because they weren't in your inventory."
 msgstr "Attenzione: non tutte le torrette potrebbero essere ripristinate perché non erano nel tuo inventario."
+
 #: ./Common/Game/IShipOwner.cpp:
 #: ./data/scripts/entity/merchants/shipyard.lua:
 #: ./data/scripts/entity/shipfounder.lua:
 msgid "Maximum ship limit for this faction (%s) of this server reached!"
 msgstr "Limite massimo di navi per questa fazione (%s) di questo server raggiunto!"
+
 #: ./Common/Game/IShipOwner.cpp:
 #: ./data/scripts/entity/minefounder.lua:
 #: ./data/scripts/entity/stationfounder.lua:
@@ -7955,6 +7965,7 @@ msgid "Propaganda Material"
 msgid_plural "Propaganda Materials"
 msgstr[0] "Materiale di propaganda"
 msgstr[1] "Materiali di propaganda"
+
 
 # ========== ./Common/Scripts/dlc/blackmarket/player/missions/commune/communemission3.lua ==========
 #: ./Common/Scripts/dlc/blackmarket/player/missions/commune/communemission3.lua:
@@ -23414,7 +23425,7 @@ msgstr "Avvio rapido"
 
 #: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
 #: ./data/scripts/lib/tradingmanager.lua:
-msgid "Easy"
+msgid "Facile"
 msgstr "Facile"
 
 #: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
@@ -32913,12 +32924,12 @@ msgstr "Ricevuto %1% %2% dalla raffineria."
 #: ./data/scripts/entity/merchants/repairdock.lua:
 msgctxt "Station Title"
 msgid "Repair Dock"
-msgstr "Repair Dock"
+msgstr "Darsena di riparazione"
 
 #: ./data/scripts/entity/merchants/repairdock.lua:
 msgctxt "Interaction Title"
 msgid "Repair Dock"
-msgstr "Repair Dock"
+msgstr "Attracca per riparare"
 
 #: ./data/scripts/entity/merchants/repairdock.lua:
 msgid "Repair your ship"
@@ -36089,7 +36100,7 @@ msgstr "Forse dovresti andartene allora."
 #: ./data/scripts/entity/story/exodustalkbeacon.lua:
 #: ./data/scripts/entity/story/exoduswreckage.lua:
 msgid "[Static Noise]"
-msgstr "[Static Noise]"
+msgstr "[Rumore statico]"
 
 #: ./data/scripts/entity/story/exodustalkbeacon.lua:
 msgid "... is this thing working?"
@@ -42392,11 +42403,11 @@ msgstr "Cannone anti-combattimento"
 # ========== ./data/scripts/lib/utility.lua ==========
 #: ./data/scripts/lib/utility.lua:
 msgid "${hours} hours, ${minutes} minutes"
-msgstr "${hours} ore, ${minutes} minuto"
+msgstr "${hours} ore, ${minutes} minuti"
 
 #: ./data/scripts/lib/utility.lua:
 msgid "${minutes} minutes, ${seconds} seconds"
-msgstr "${minutes} minuti, ${seconds} secondo"
+msgstr "${minutes} minuti, ${seconds} secondi"
 
 #: ./data/scripts/lib/utility.lua:
 msgid "${seconds} seconds"
