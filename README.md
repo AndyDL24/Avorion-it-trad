@@ -17,5 +17,11 @@ msgstr (virgolette "" vuote dove inserire la traduzione italiana.)
 
 Potreaste trovare una riga con questo codice: "msgctxt" è la descrizione di cosa state draducendo quindi vi aiuta a capire l'argomento trattato.
 
-Appena riusciamo a completare una buona parte della traduzione vi diciamo come installare il tutto.
+# Istallazione
+
+Per istallare la traduzione basta cercarla nel workshop di steam e sottoscrivere la traduzione e il gioco è fatto. In opzioni trovate la lingua italiana.
+
+Link per le donazioni: <br>
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X2RKY9S)
+
 Ringrazio tutti in anticipo.
