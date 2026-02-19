@@ -1670,7 +1670,7 @@ msgid "Stone, as taken from asteroids. Heavy and high durability. Until someone 
 msgstr ""
 
 #: ./Common/Game/Blocks/Blocks.cpp:
-msgid "Rift stone, as taken from rift asteroids. Heavy and high durability. Until someone shows up with an r-mining laser. Mostly aesthetic."
+msgid "Rift stone, as taken from rift asteroids. Heavy and high durability. Until someone shows up with a mining laser. Mostly aesthetic."
 msgstr ""
 
 #: ./Common/Game/Blocks/Blocks.cpp:
@@ -2361,6 +2361,7 @@ msgid "rad/s"
 msgstr ""
 
 #: ./Common/Game/CraftStatsOverview.cpp:
+#: ./Client/ClientUI/Hud/ModifyWholeShipWindow.cpp:
 msgctxt "Unit: tons"
 msgid "t"
 msgstr ""
@@ -2394,6 +2395,7 @@ msgid "W"
 msgstr ""
 
 #: ./Common/Game/CraftStatsOverview.cpp:
+#: ./Client/ClientUI/Hud/ModifyWholeShipWindow.cpp:
 #: ./data/scripts/items/buildingknowledge.lua:
 msgid "Subsystem Sockets"
 msgstr ""
@@ -2480,6 +2482,7 @@ msgid "Shield"
 msgstr ""
 
 #: ./Common/Game/CraftStatsOverview.cpp:
+#: ./Client/ClientUI/Hud/ModifyWholeShipWindow.cpp:
 msgid "Mass"
 msgstr ""
 
@@ -2576,6 +2579,7 @@ msgid "Volume"
 msgstr ""
 
 #: ./Common/Game/CraftStatsOverview.cpp:
+#: ./Client/ClientUI/Hud/ModifyWholeShipWindow.cpp:
 msgctxt "Width x Height x Length"
 msgid "W x H x L"
 msgstr ""
@@ -5980,24 +5984,6 @@ msgstr ""
 #: ./Common/Scripts/dlc/blackmarket/player/missions/cavaliers/cavaliersmission2.lua:
 #: ./Common/Scripts/dlc/blackmarket/player/missions/cavaliers/cavaliersmission5.lua:
 msgid "General Adriana Stahl"
-msgstr ""
-
-#: ./Common/Scripts/dlc/blackmarket/player/missions/cavaliers/cavaliersmission2.lua:
-#: ./data/scripts/lib/entitydbg.lua:
-#: ./data/scripts/player/events/alienattack.lua:
-msgid "Xsotan Scout"
-msgstr ""
-
-#: ./Common/Scripts/dlc/blackmarket/player/missions/cavaliers/cavaliersmission2.lua:
-#: ./data/scripts/lib/entitydbg.lua:
-#: ./data/scripts/player/events/alienattack.lua:
-msgid "Xsotan Ship"
-msgstr ""
-
-#: ./Common/Scripts/dlc/blackmarket/player/missions/cavaliers/cavaliersmission2.lua:
-#: ./data/scripts/lib/entitydbg.lua:
-#: ./data/scripts/player/events/alienattack.lua:
-msgid "Big Xsotan Ship"
 msgstr ""
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/cavaliers/cavaliersmission2.lua:
@@ -13179,6 +13165,7 @@ msgstr ""
 
 # ========== ./Common/Scripts/dlc/blackmarket/systems/cargodetectionscrambler.lua ==========
 #: ./Common/Scripts/dlc/blackmarket/systems/cargodetectionscrambler.lua:
+msgctxt "Cargo Detection Scrambler"
 msgid "Mk. ${mark} CSD 'Sphinx' ${serial}"
 msgstr ""
 
@@ -13610,6 +13597,11 @@ msgstr ""
 
 #: ./Common/Scripts/dlc/rift/entity/riftobjects/itrstoryresetbeacon.lua:
 msgid "Into the Rift story was reset."
+msgstr ""
+
+#: ./Common/Scripts/dlc/rift/entity/riftobjects/itrstoryresetbeacon.lua:
+msgctxt "cryptic message that story reset is not possible yet"
+msgid "You are not ready yet. History has to be written before it can be re-written."
 msgstr ""
 
 #: ./Common/Scripts/dlc/rift/entity/riftobjects/itrstoryresetbeacon.lua:
@@ -14319,6 +14311,10 @@ msgstr ""
 msgid "Charging..."
 msgstr ""
 
+#: ./Common/Scripts/dlc/rift/entity/riftteleport.lua:
+msgid "Cancel with [${key}]"
+msgstr ""
+
 
 # ========== ./Common/Scripts/dlc/rift/entity/salvageobjectivewreckage.lua ==========
 #: ./Common/Scripts/dlc/rift/entity/salvageobjectivewreckage.lua:
@@ -14549,6 +14545,7 @@ msgid "Report regarding ${shipName}"
 msgstr ""
 
 #: ./Common/Scripts/dlc/rift/player/riftmission.lua:
+#: ./Client/ClientUI/Menu/MainMenu.cpp:
 #: ./Client/ClientUI/Menu/ModSaveGameIssuesWindow.cpp:
 #: ./Client/ClientUI/Menu/VersionSaveGameIssuesWindow.cpp:
 #: ./Client/ClientUI/Tutorial.cpp:
@@ -15744,6 +15741,13 @@ msgstr[0] ""
 msgstr[1] ""
 
 
+# ========== ./Common/Scripts/dlc/rift/public/itrmissiondbg.lua ==========
+#: ./Common/Scripts/dlc/rift/public/itrmissiondbg.lua:
+#: ./data/scripts/dlc/rift/lib/riftmissionspecsui.lua:
+msgid "Xsotan Strength +${n}"
+msgstr ""
+
+
 # ========== ./Common/Scripts/dlc/rift/sector/effects/minefield.lua ==========
 #: ./Common/Scripts/dlc/rift/sector/effects/minefield.lua:
 msgctxt "A proximity mine (weapon)"
@@ -15848,7 +15852,11 @@ msgid "${count}/${total} Monoliths"
 msgstr ""
 
 #: ./Common/Scripts/dlc/rift/sector/missionobjectives/combat.lua:
-msgid "Extract the Xsotan Core from the large Xsotan"
+msgid "Destroy the large Xsotan to extract the Core"
+msgstr ""
+
+#: ./Common/Scripts/dlc/rift/sector/missionobjectives/combat.lua:
+msgid "Collect the Xsotan Core that was dropped by the large Xsotan"
 msgstr ""
 
 #: ./Common/Scripts/dlc/rift/sector/missionobjectives/combat.lua:
@@ -17121,6 +17129,24 @@ msgid "%s (Community)"
 msgstr ""
 
 
+# ========== ./Common/Utilities/LocalizationExtraStrings.cpp ==========
+#: ./Common/Utilities/LocalizationExtraStrings.cpp:
+msgctxt "player name"
+msgid "Game paused by %1%"
+msgstr ""
+
+#: ./Common/Utilities/LocalizationExtraStrings.cpp:
+msgid "Blocks must have a minimum size of %1% in this galaxy."
+msgstr ""
+
+#: ./Common/Utilities/LocalizationExtraStrings.cpp:
+#: ./Server/Server/PlayerMessageHandlers/AddBlockTemplateMessageHandler.cpp:
+#: ./Server/Server/PlayerMessageHandlers/ChangeBlockMessageHandler.cpp:
+#: ./Server/Server/PlayerMessageHandlers/SetBlockPlanMessageHandler.cpp:
+msgid "Could not load craft or template due to an issue with overlapping blocks."
+msgstr ""
+
+
 # ========== ./Common/Utilities/Math/Math.cpp ==========
 #: ./Common/Utilities/Math/Math.cpp:
 #: ./data/scripts/lib/utility.lua:
@@ -17218,9 +17244,10 @@ msgstr ""
 
 #: ./Common/Utilities/System.cpp:
 #: ./Client/Client/MessageBox.cpp:
-#: ./Client/ClientUI/GalaxyMap/GalaxyMap.cpp:
+#: ./Client/Client/Session/Session.cpp:
 #: ./Client/ClientUI/Hud/SavedDesignsWindow.cpp:
 #: ./Client/ClientUI/Menu/BackupsWindow.cpp:
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeSettingsWindow.cpp:
 #: ./Client/ClientUI/ShipWindow/SystemsTab.cpp:
 #: ./data/scripts/entity/derelictminefounder.lua:
 #: ./data/scripts/entity/derelictstationfounder.lua:
@@ -17377,6 +17404,37 @@ msgstr ""
 msgid "If you have a dedicated GPU, you may have to manually select it in your NVidia or AMD settings."
 msgstr ""
 
+#: ./Client/Client/Client.cpp:
+#: ./Client/ClientUI/Menu/MainMenu.cpp:
+msgid "A dedicated server is running."
+msgstr ""
+
+#: ./Client/Client/Client.cpp:
+msgctxt "tooltip for disabled continue button; galaxy = saved game"
+msgid "Information about a previous session is missing or outdated. Previous galaxies can be found in \"Singleplayer\"."
+msgstr ""
+
+#: ./Client/Client/Client.cpp:
+msgid "Start galaxy %s (singleplayer)"
+msgstr ""
+
+#: ./Client/Client/Client.cpp:
+msgid "Host galaxy %s (multiplayer)"
+msgstr ""
+
+#: ./Client/Client/Client.cpp:
+msgid "Reconnect to last server"
+msgstr ""
+
+#: ./Client/Client/Client.cpp:
+msgid "Reconnect to server with ID %s"
+msgstr ""
+
+#: ./Client/Client/Client.cpp:
+msgctxt "ip address or hostname"
+msgid "Reconnect to server at %s"
+msgstr ""
+
 
 # ========== ./Client/Client/ClientCreditsState.cpp ==========
 #: ./Client/Client/ClientCreditsState.cpp:
@@ -17484,6 +17542,14 @@ msgstr ""
 # ========== ./Client/Client/ClientGameUtility.cpp ==========
 #: ./Client/Client/ClientGameUtility.cpp:
 msgid "The crew of ship '%s' must be paid."
+msgstr ""
+
+#: ./Client/Client/ClientGameUtility.cpp:
+msgid "Alliance inventory is full!"
+msgstr ""
+
+#: ./Client/Client/ClientGameUtility.cpp:
+msgid "Alliance inventory is almost full!"
 msgstr ""
 
 #: ./Client/Client/ClientGameUtility.cpp:
@@ -19336,6 +19402,53 @@ msgid "Reservation runs out in: %s"
 msgstr ""
 
 
+# ========== ./Client/Client/Scene/Renderers/SkyboxRenderer.cpp ==========
+#: ./Client/Client/Scene/Renderers/SkyboxRenderer.cpp:
+msgctxt "star type"
+msgid "Carbon Star"
+msgstr ""
+
+#: ./Client/Client/Scene/Renderers/SkyboxRenderer.cpp:
+msgctxt "star type"
+msgid "Red Giant"
+msgstr ""
+
+#: ./Client/Client/Scene/Renderers/SkyboxRenderer.cpp:
+msgctxt "star type"
+msgid "Red Dwarf"
+msgstr ""
+
+#: ./Client/Client/Scene/Renderers/SkyboxRenderer.cpp:
+msgctxt "star type"
+msgid "Orange Dwarf"
+msgstr ""
+
+#: ./Client/Client/Scene/Renderers/SkyboxRenderer.cpp:
+msgctxt "star type"
+msgid "Sol"
+msgstr ""
+
+#: ./Client/Client/Scene/Renderers/SkyboxRenderer.cpp:
+msgctxt "star type"
+msgid "Yellow Dwarf"
+msgstr ""
+
+#: ./Client/Client/Scene/Renderers/SkyboxRenderer.cpp:
+msgctxt "star type"
+msgid "Blue Giant"
+msgstr ""
+
+#: ./Client/Client/Scene/Renderers/SkyboxRenderer.cpp:
+msgctxt "star type"
+msgid "White Dwarf"
+msgstr ""
+
+#: ./Client/Client/Scene/Renderers/SkyboxRenderer.cpp:
+msgctxt "star type"
+msgid "Bright Giant"
+msgstr ""
+
+
 # ========== ./Client/Client/ServerStartInfo.cpp ==========
 #: ./Client/Client/ServerStartInfo.cpp:
 msgid "Path %s doesn't exist."
@@ -19361,6 +19474,10 @@ msgstr ""
 # ========== ./Client/Client/Session/ClientModDownloadState.cpp ==========
 #: ./Client/Client/Session/ClientModDownloadState.cpp:
 msgid "Error while downloading mods:"
+msgstr ""
+
+#: ./Client/Client/Session/ClientModDownloadState.cpp:
+msgid "Return to Main Menu"
 msgstr ""
 
 #: ./Client/Client/Session/ClientModDownloadState.cpp:
@@ -19419,6 +19536,14 @@ msgid "Couldn't find this mod on disk or in the Steam Workshop."
 msgstr ""
 
 #: ./Client/Client/Session/ClientModDownloadState.cpp:
+msgid "Server has out-of-date version of a mod."
+msgstr ""
+
+#: ./Client/Client/Session/ClientModDownloadState.cpp:
+msgid "Local mods can't be updated automatically."
+msgstr ""
+
+#: ./Client/Client/Session/ClientModDownloadState.cpp:
 msgctxt "Mod Installation Status"
 msgid "Version Mismatch"
 msgstr ""
@@ -19445,7 +19570,11 @@ msgid "[%1% of %2% | %3%%%]"
 msgstr ""
 
 #: ./Client/Client/Session/ClientModDownloadState.cpp:
-msgid "Unknown error downloading item with workshop ID '%i', skipping after 10 tries."
+msgid "Download of workshop item with id %s failed."
+msgstr ""
+
+#: ./Client/Client/Session/ClientModDownloadState.cpp:
+msgid "An unkown server error occured. Please reload the galaxy."
 msgstr ""
 
 
@@ -19550,7 +19679,7 @@ msgid "Downloading Mods"
 msgstr ""
 
 #: ./Client/Client/Session/DownloadingModsMenu.cpp:
-msgid "Connect & Download"
+msgid "Download & Connect"
 msgstr ""
 
 
@@ -19562,7 +19691,7 @@ msgstr ""
 
 # ========== ./Client/Client/Session/MessageHandlers/ServerModInfoMessageHandler.cpp ==========
 #: ./Client/Client/Session/MessageHandlers/ServerModInfoMessageHandler.cpp:
-msgid "Error while enabling mods: "
+msgid "Error while enabling mods:\n%s"
 msgstr ""
 
 #: ./Client/Client/Session/MessageHandlers/ServerModInfoMessageHandler.cpp:
@@ -19571,6 +19700,13 @@ msgstr ""
 
 #: ./Client/Client/Session/MessageHandlers/ServerModInfoMessageHandler.cpp:
 msgid "Error while enabling mods: mod %1% [%2%] has the wrong version.\nRequired: %3%.*, Installed: %4%"
+msgstr ""
+
+
+# ========== ./Client/Client/Session/ReconnectAfterPasswordErrorState.cpp ==========
+#: ./Client/Client/Session/ReconnectAfterPasswordErrorState.cpp:
+#: ./Server/Server/Server.cpp:
+msgid "Connection refused: Wrong password."
 msgstr ""
 
 
@@ -19593,6 +19729,10 @@ msgstr ""
 
 #: ./Client/Client/Session/Session.cpp:
 msgid "Too many messages."
+msgstr ""
+
+#: ./Client/Client/Session/Session.cpp:
+msgid "If you switch out of the sector you won't be able to return and your ships will be lost. Are you sure?"
 msgstr ""
 
 
@@ -19620,7 +19760,16 @@ msgid "User not logged in"
 msgstr ""
 
 #: ./Client/Client/Steam/Workshop/WorkshopBaseSubmission.cpp:
-msgid "Workshop Legal Agreement not accepted"
+msgid "Steam Workshop Unavailable"
+msgstr ""
+
+#: ./Client/Client/Steam/Workshop/WorkshopBaseSubmission.cpp:
+msgctxt "User put sth wrong in a text field"
+msgid "Invalid Field Value"
+msgstr ""
+
+#: ./Client/Client/Steam/Workshop/WorkshopBaseSubmission.cpp:
+msgid "Steam Cloud Quota Exceeded"
 msgstr ""
 
 #: ./Client/Client/Steam/Workshop/WorkshopBaseSubmission.cpp:
@@ -19655,7 +19804,8 @@ msgstr ""
 
 # ========== ./Client/ClientUI/ColorSelection.cpp ==========
 #: ./Client/ClientUI/ColorSelection.cpp:
-msgid "No color"
+msgctxt "selectable option in a list of custom colors, when creating/modifying/configuring things"
+msgid "No Color"
 msgstr ""
 
 
@@ -19897,6 +20047,7 @@ msgid "Home Sector"
 msgstr ""
 
 #: ./Client/ClientUI/GalaxyMap/GalaxyMap.cpp:
+#: ./data/scripts/player/background/lostships.lua:
 #: ./data/scripts/player/ui/encyclopedia/chapters/craftmanagement.lua:
 msgid "Reconstruction Site"
 msgstr ""
@@ -19968,10 +20119,6 @@ msgstr ""
 
 #: ./Client/ClientUI/GalaxyMap/GalaxyMap.cpp:
 msgid "Enter the note you want to attach to the sector (Only 300 characters will be saved): "
-msgstr ""
-
-#: ./Client/ClientUI/GalaxyMap/GalaxyMap.cpp:
-msgid "If you switch out of the sector you won't be able to return and your ships will be lost. Are you sure?"
 msgstr ""
 
 
@@ -20258,7 +20405,7 @@ msgid "Apply Current Color to Selection"
 msgstr ""
 
 #: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
-msgid "Pick Color from Selected Block"
+msgid "Pick Primary Color from Selected Block"
 msgstr ""
 
 #: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
@@ -20270,11 +20417,59 @@ msgid "The selected blocks have different colors. Select one."
 msgstr ""
 
 #: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "Pick Secondary Color from Selected Block"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "Secondary Color View"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "Material Color (Default)"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "No Change"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
 msgid "Used Colors First"
 msgstr ""
 
 #: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
 msgid "Normal Order"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "Primary Color "
+msgstr ""
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "Secondary Color "
+msgstr ""
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "No Custom Primary Color"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "Any Primary Color"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "No Custom Secondary Color"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "Any Secondary Color"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "Select All Blocks with:"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "Pick Color from Selected Block"
 msgstr ""
 
 
@@ -20447,6 +20642,7 @@ msgstr ""
 
 # ========== ./Client/ClientUI/Hud/BuildingInputHints.cpp ==========
 #: ./Client/ClientUI/Hud/BuildingInputHints.cpp:
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeInputHints.cpp:
 msgid "Rotate Camera"
 msgstr ""
 
@@ -20541,6 +20737,10 @@ msgstr ""
 # ========== ./Client/ClientUI/Hud/BuildingQuickSelection.cpp ==========
 #: ./Client/ClientUI/Hud/BuildingQuickSelection.cpp:
 msgid "Put Blocks, Turrets or Designs here via Drag & Drop\nor by pressing %1% - %2% when hovering over them."
+msgstr ""
+
+#: ./Client/ClientUI/Hud/BuildingQuickSelection.cpp:
+msgid "Blocks smaller than %1%: %2%"
 msgstr ""
 
 #: ./Client/ClientUI/Hud/BuildingQuickSelection.cpp:
@@ -21178,6 +21378,10 @@ msgstr ""
 #: ./Client/ClientUI/Hud/DesignUploadWorkshopWindow.cpp:
 #: ./Client/ClientUI/Menu/ModUploadWorkshopTab.cpp:
 msgid "Show Workshop"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/DesignUploadWorkshopWindow.cpp:
+msgid "Attention: This design contains blocks that are smaller than the default minimum block size. It will not be usable on multiplayer servers or in galaxies that use and enforce the default minimum block size (%1%)."
 msgstr ""
 
 #: ./Client/ClientUI/Hud/DesignUploadWorkshopWindow.cpp:
@@ -21913,6 +22117,21 @@ msgstr ""
 
 #: ./Client/ClientUI/Hud/QuickMenu.cpp:
 msgctxt "tooltip"
+msgid "Leave Photo Mode (%s)"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/QuickMenu.cpp:
+msgctxt "tooltip"
+msgid "Leave Photo Mode (%s or %s)"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/QuickMenu.cpp:
+msgctxt "tooltip"
+msgid "Toggle Settings Window"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/QuickMenu.cpp:
+msgctxt "tooltip"
 msgid "Player Menu (%s)"
 msgstr ""
 
@@ -21925,8 +22144,19 @@ msgid "One of your alliance ships has yields for you!"
 msgstr ""
 
 #: ./Client/ClientUI/Hud/QuickMenu.cpp:
-msgctxt "tooltip"
+msgctxt "tooltip (keyboard key)"
 msgid "Ship Menu (%s)"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/QuickMenu.cpp:
+#: ./Client/UI/UIControlsRenderer.cpp:
+msgctxt "Hold (keyboard key)"
+msgid "Hold %s"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/QuickMenu.cpp:
+msgctxt "tooltip: 1: ship name, 2: keyboard key"
+msgid "Ship Menu of %1% (%2%)"
 msgstr ""
 
 #: ./Client/ClientUI/Hud/QuickMenu.cpp:
@@ -22112,6 +22342,10 @@ msgstr ""
 
 #: ./Client/ClientUI/Hud/SavedDesignsWindow.cpp:
 msgid "Save Template from Clipboard (Ctrl-V)"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/SavedDesignsWindow.cpp:
+msgid "Attention: The current design contains blocks that are smaller than the default minimum block size. It will not be usable on multiplayer servers or in galaxies that use and enforce the default minimum block size (%1%)."
 msgstr ""
 
 #: ./Client/ClientUI/Hud/SavedDesignsWindow.cpp:
@@ -22516,6 +22750,11 @@ msgid "Show Details"
 msgstr ""
 
 #: ./Client/ClientUI/Hud/TrackedMissionsDisplayer.cpp:
+#: ./data/scripts/lib/structuredmission.lua:
+msgid "(done)"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/TrackedMissionsDisplayer.cpp:
 msgctxt "vague location"
 msgid "~ %1%"
 msgstr ""
@@ -22745,18 +22984,8 @@ msgid "Arrows indicating flight direction"
 msgstr ""
 
 #: ./Client/ClientUI/Hud/ViewSettingsWindow.cpp:
-msgctxt "Building Highlight Mode"
-msgid "No Highlights"
-msgstr ""
-
-#: ./Client/ClientUI/Hud/ViewSettingsWindow.cpp:
-msgctxt "Building Highlight Mode"
-msgid "Turrets"
-msgstr ""
-
-#: ./Client/ClientUI/Hud/ViewSettingsWindow.cpp:
-msgctxt "Building Highlight Mode"
-msgid "Block Damage"
+msgctxt "Caption for building highlight mode selection"
+msgid "Highlight:"
 msgstr ""
 
 #: ./Client/ClientUI/Hud/ViewSettingsWindow.cpp:
@@ -22777,6 +23006,11 @@ msgstr ""
 
 #: ./Client/ClientUI/Hud/ViewSettingsWindow.cpp:
 msgid "Z"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/ViewSettingsWindow.cpp:
+msgctxt "caption to choose which side to show shilouette on"
+msgid "Position:"
 msgstr ""
 
 #: ./Client/ClientUI/Hud/ViewSettingsWindow.cpp:
@@ -22801,6 +23035,41 @@ msgstr ""
 #: ./Client/ClientUI/Hud/ViewSettingsWindow.cpp:
 msgctxt "Hide no materials"
 msgid "- All Materials -"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/ViewSettingsWindow.cpp:
+msgctxt "Building Highlight Mode"
+msgid "No Highlights"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/ViewSettingsWindow.cpp:
+msgctxt "Building Highlight Mode"
+msgid "Turrets"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/ViewSettingsWindow.cpp:
+msgctxt "Building Highlight Mode"
+msgid "Block Damage"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/ViewSettingsWindow.cpp:
+msgctxt "Building Highlight Mode"
+msgid "Small Blocks"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/ViewSettingsWindow.cpp:
+msgctxt "Tooltip for Building Highlight Mode 'small blocks'"
+msgid "Highlight blocks that are smaller than the default minimum block size. A ship with blocks this small may be forbidden on some servers."
+msgstr ""
+
+#: ./Client/ClientUI/Hud/ViewSettingsWindow.cpp:
+msgctxt "Building Highlight Mode"
+msgid "Tiny Blocks"
+msgstr ""
+
+#: ./Client/ClientUI/Hud/ViewSettingsWindow.cpp:
+msgctxt "Tooltip for Building Highlight Mode 'tiny blocks'"
+msgid "Highlight blocks that do not conform to this servers custom minimum block size"
 msgstr ""
 
 #: ./Client/ClientUI/Hud/ViewSettingsWindow.cpp:
@@ -23102,6 +23371,14 @@ msgid "Strategy Mode"
 msgstr ""
 
 #: ./Client/ClientUI/Menu/ControlSettingsWindow.cpp:
+#: ./Client/ClientUI/Menu/PauseMenu.cpp:
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeSettingsWindow.cpp:
+#: ./Client/Input/GameInput.cpp:
+msgctxt "Mode to make pretty screenshots"
+msgid "Photo Mode"
+msgstr ""
+
+#: ./Client/ClientUI/Menu/ControlSettingsWindow.cpp:
 msgid "Control Settings"
 msgstr ""
 
@@ -23312,7 +23589,21 @@ msgstr ""
 
 # ========== ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp ==========
 #: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+#: ./Client/ClientUI/Menu/NewGameSettingsSelector.cpp:
 msgid "Free Play Settings"
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgid "Scenario Preset:"
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgctxt "game setting tooltip"
+msgid "Disables Steam Achievements."
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgid "Difficulty Preset:"
 msgstr ""
 
 #: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
@@ -23320,7 +23611,7 @@ msgid "Infinite Resources"
 msgstr ""
 
 #: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
-msgid "You have infinite resources to build. [Disables Achievements]"
+msgid "Unlimited resources to build."
 msgstr ""
 
 #: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
@@ -23328,15 +23619,34 @@ msgid "Full Building Knowledge"
 msgstr ""
 
 #: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
-msgid "You have full building knowledge of all materials from the start."
+msgid "Full building knowledge of all materials from the start."
 msgstr ""
 
 #: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgctxt "Label for checkbox, keep short"
 msgid "Shipyard-Bound Building"
 msgstr ""
 
 #: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
 msgid "Some blocks require a shipyard in the sector to build."
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgctxt "Label for checkbox, keep short"
+msgid "Instant Shipyard Building"
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgid "Ships commissioned at a shipyard are built instantly."
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+#: ./data/scripts/player/ui/creativemodemenu.lua:
+msgid "Creative Mode Command Center"
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgid "Adds the Creative Mode Command Center tab to the ship window"
 msgstr ""
 
 #: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
@@ -23364,6 +23674,39 @@ msgid "Gates can be docked and turrets of docked ships can be used freely."
 msgstr ""
 
 #: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgid "Unlimited Processing Power"
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgid "Building Knowledge, if enabled, doesn't limit Processing Power available for ships. You can build your ships as big as you want, even if you don't have the next material knowledge unlocked yet."
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgid "Unlimited Max Ship Size"
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgid "You can make your ships as big, beefy and unbalanced as you want. Only affects the maximum size of the ship once it reaches maximum processing power."
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgctxt "Makes the addition of turrets to crafts behave as if in creative mode, keep short"
+msgid "Creative Mode Turret Building"
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgid "Copies turrets from inventory instead of taking them when adding them to your craft."
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgid "Creative Mode Blocks"
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgid "Allows you to build wreckage and rift stone blocks."
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
 msgid "Barrier & Storyline"
 msgstr ""
 
@@ -23384,31 +23727,15 @@ msgid "You have to find the way over the barrier yourself."
 msgstr ""
 
 #: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
-msgid "The barrier is gone! NPCs might not have noticed, though. [Disables Achievements]"
+msgid "The barrier is gone! NPCs might not have noticed, though."
 msgstr ""
 
 #: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
-msgid "Unlimited Processing Power"
+msgid "Precise Enemies"
 msgstr ""
 
 #: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
-msgid "Building Knowledge, if enabled, doesn't limit Processing Power available for ships. You can build your ships as big as you want, even if you don't have the next material knowledge unlocked yet."
-msgstr ""
-
-#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
-msgid "Unlimited Max Ship Size"
-msgstr ""
-
-#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
-msgid "You can make your ships as big, beefy and unbalanced as you want. Only affects the maximum size of the ship once it reaches maximum processing power."
-msgstr ""
-
-#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
-msgid "Relation Gain"
-msgstr ""
-
-#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
-msgid "Relation Loss"
+msgid "Enemy ships aim as well as they can and won't try to 'accidentally' miss."
 msgstr ""
 
 #: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
@@ -23444,6 +23771,14 @@ msgid "Much Better Relations"
 msgstr ""
 
 #: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgid "Relation Gain"
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgid "Relation Loss"
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
 msgid "Starting Resources"
 msgstr ""
 
@@ -23469,11 +23804,35 @@ msgid "Resource Wreckages"
 msgstr ""
 
 #: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
-msgid "Precise Enemies"
+msgid "Minimum Block Size"
 msgstr ""
 
 #: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
-msgid "Enemy ships aim as well as they can and won't try to 'accidentally' miss."
+msgctxt "tooltip for 'minimum block size' setting"
+msgid "Default minimum block size is %1% (equals %2% cm)."
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgctxt "tooltip for 'minimum block size' setting"
+msgid "When creating Workshop designs, keep in mind that many players will use the default minimum block size."
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgctxt "warning tooltip for low 'minimum block size' setting"
+msgid "Beware: Using blocks this small can lead to performance issues and glitches."
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgctxt "warning tooltip for very low 'minimum block size' setting"
+msgid "CAREFUL: Using blocks this small will very likely lead to performance issues and glitches!"
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgid "Minimum block size that is enforced by the server."
+msgstr ""
+
+#: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
+msgid "(This is enforced when trying to add new blocks to an existing ship. Existing designs with smaller blocks can still be imported. In future versions, there will be an optional strict mode that also enforces this setting when importing saved designs.)"
 msgstr ""
 
 #: ./Client/ClientUI/Menu/FreePlayConfigurationWindow.cpp:
@@ -24340,19 +24699,19 @@ msgid "Visit the Official Avorion Discord Server and chat with other players!"
 msgstr ""
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
-msgid "Visit the Official Avorion Facebook Page and like the page for more updates!"
-msgstr ""
-
-#: ./Client/ClientUI/Menu/MainMenu.cpp:
-msgid "Visit the Official Avorion Twitter and follow us for more updates!"
-msgstr ""
-
-#: ./Client/ClientUI/Menu/MainMenu.cpp:
 msgid "Visit the Official Avorion Subreddit and chat with other players!"
 msgstr ""
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
+msgid "Visit the Steam Discussion section of Avorion to connect with other players!"
+msgstr ""
+
+#: ./Client/ClientUI/Menu/MainMenu.cpp:
 msgid "Visit the Official Avorion Forum and chat with other players!"
+msgstr ""
+
+#: ./Client/ClientUI/Menu/MainMenu.cpp:
+msgid "Visit the Official Avorion Facebook Page and like the page for more updates!"
 msgstr ""
 
 #: ./Client/ClientUI/Menu/MainMenu.cpp:
@@ -25093,6 +25452,201 @@ msgid "Continuing can lead to a broken savegame and/or crashes!"
 msgstr ""
 
 
+# ========== ./Client/ClientUI/PhotoModeUI/CameraTab.cpp ==========
+#: ./Client/ClientUI/PhotoModeUI/CameraTab.cpp:
+#: ./data/scripts/player/ui/encyclopedia/chapters/building.lua:
+msgid "Camera"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/CameraTab.cpp:
+msgctxt "Camera Setting"
+msgid "Field of View"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/CameraTab.cpp:
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Reset to original value"
+msgstr ""
+
+
+# ========== ./Client/ClientUI/PhotoModeUI/EffectsTab.cpp ==========
+#: ./Client/ClientUI/PhotoModeUI/EffectsTab.cpp:
+msgid "Effects"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/EffectsTab.cpp:
+msgid "Color Filter"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/EffectsTab.cpp:
+msgid "No filter"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/EffectsTab.cpp:
+msgid "Grayscale"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/EffectsTab.cpp:
+msgid "Sepia"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/EffectsTab.cpp:
+msgid "Desaturated"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/EffectsTab.cpp:
+msgid "Saturated"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/EffectsTab.cpp:
+msgid "Vignette"
+msgstr ""
+
+
+# ========== ./Client/ClientUI/PhotoModeUI/PhotoModeInputHints.cpp ==========
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeInputHints.cpp:
+msgctxt "new sun or planet position in sector"
+msgid "Pick New Position"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeInputHints.cpp:
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeSettingsWindow.cpp:
+#: ./Client/Input/GameInput.cpp:
+msgid "Take Photo"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeInputHints.cpp:
+#: ./Client/Input/GameInput.cpp:
+msgid "Toggle Free Camera"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeInputHints.cpp:
+msgid "Roll Camera"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeInputHints.cpp:
+#: ./Client/Input/GameInput.cpp:
+msgid "Move Camera"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeInputHints.cpp:
+#: ./Client/Input/GameInput.cpp:
+msgid "Camera Speedup"
+msgstr ""
+
+
+# ========== ./Client/ClientUI/PhotoModeUI/PhotoModeSettingsWindow.cpp ==========
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeSettingsWindow.cpp:
+msgid "Take High Resolution Photo"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeSettingsWindow.cpp:
+msgid "This requires a lot of VRAM and may take a while. Use at your own risk. Are you sure?"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeSettingsWindow.cpp:
+msgid "Open Screenshot Folder"
+msgstr ""
+
+
+# ========== ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp ==========
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Skybox"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Sector Style"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Random"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Press [Enter] to apply style"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Reset sector style"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Rift Sector"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Sun Type"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Reset to original sun type"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Sun Position"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgctxt "select new sun position in sector"
+msgid "Click to position sun"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Behind Camera"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Reset to original sun position"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Planet Position"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgctxt "select new planet position in sector"
+msgid "Click to position planet"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Reset to original planet position"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Star Density"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Sector Color"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Dustiness"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "No Dust"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Some Dust"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "A Lot Of Dust"
+msgstr ""
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "A Ton Of Dust"
+msgstr ""
+
+
+# ========== ./Client/ClientUI/PhotoModeUI/StickersTab.cpp ==========
+#: ./Client/ClientUI/PhotoModeUI/StickersTab.cpp:
+msgid "Stickers"
+msgstr ""
+
+
 # ========== ./Client/ClientUI/PlayerComboBox.cpp ==========
 #: ./Client/ClientUI/PlayerComboBox.cpp:
 msgid "-- OFFLINE --"
@@ -25830,14 +26384,18 @@ msgstr ""
 
 # ========== ./Client/ClientUI/SavedDesignsSelection.cpp ==========
 #: ./Client/ClientUI/SavedDesignsSelection.cpp:
-msgid "Filters"
+msgctxt "refine search results"
+msgid "Filter"
 msgstr ""
 
 #: ./Client/ClientUI/SavedDesignsSelection.cpp:
-#: ./data/scripts/entity/merchants/refinery.lua:
-#: ./data/scripts/player/background/simulation/scoutcommand.lua:
-#: ./data/scripts/player/ui/diplomacy.lua:
-msgid "All"
+msgctxt "Caption for selection of necessary Knowledge and/or ressources"
+msgid "By Requirements:"
+msgstr ""
+
+#: ./Client/ClientUI/SavedDesignsSelection.cpp:
+msgctxt "No requirements"
+msgid "None (Show All)"
 msgstr ""
 
 #: ./Client/ClientUI/SavedDesignsSelection.cpp:
@@ -25861,11 +26419,39 @@ msgid "Only show plans you can build with your current building knowledge and re
 msgstr ""
 
 #: ./Client/ClientUI/SavedDesignsSelection.cpp:
-msgid "Fighters Only"
+msgctxt "Caption for selection between ship, fighter and turret plan types"
+msgid "By Plan Type:"
 msgstr ""
 
 #: ./Client/ClientUI/SavedDesignsSelection.cpp:
-msgid "Only show plans that can be used for fighters"
+#: ./data/scripts/entity/merchants/refinery.lua:
+#: ./data/scripts/player/background/simulation/scoutcommand.lua:
+#: ./data/scripts/player/ui/diplomacy.lua:
+msgid "All"
+msgstr ""
+
+#: ./Client/ClientUI/SavedDesignsSelection.cpp:
+msgid "Ship & Station Plans"
+msgstr ""
+
+#: ./Client/ClientUI/SavedDesignsSelection.cpp:
+msgid "Only Fighter Plans"
+msgstr ""
+
+#: ./Client/ClientUI/SavedDesignsSelection.cpp:
+msgid "Only Turret Plans"
+msgstr ""
+
+#: ./Client/ClientUI/SavedDesignsSelection.cpp:
+msgid "Show all plans except turrets"
+msgstr ""
+
+#: ./Client/ClientUI/SavedDesignsSelection.cpp:
+msgid "Only show plans that can be used for fighters (up to 200 blocks)"
+msgstr ""
+
+#: ./Client/ClientUI/SavedDesignsSelection.cpp:
+msgid "Only show plans that can be used for turrets"
 msgstr ""
 
 #: ./Client/ClientUI/SavedDesignsSelection.cpp:
@@ -26490,6 +27076,10 @@ msgstr ""
 
 #: ./Client/ClientUI/ShipWindow/ShipWindow.cpp:
 msgid "Your craft doesn't have torpedo storage or shafts."
+msgstr ""
+
+#: ./Client/ClientUI/ShipWindow/ShipWindow.cpp:
+msgid "Co-op Controls are only available for alliance crafts."
 msgstr ""
 
 #: ./Client/ClientUI/ShipWindow/ShipWindow.cpp:
@@ -27171,6 +27761,16 @@ msgstr[0] ""
 msgstr[1] ""
 
 
+# ========== ./Client/ClientUI/UIDualColorPreview.cpp ==========
+#: ./Client/ClientUI/UIDualColorPreview.cpp:
+msgid "Primary Color: %s"
+msgstr ""
+
+#: ./Client/ClientUI/UIDualColorPreview.cpp:
+msgid "Secondary Color: %s"
+msgstr ""
+
+
 # ========== ./Client/ClientUI/UIShipStatsDisplayer.cpp ==========
 #: ./Client/ClientUI/UIShipStatsDisplayer.cpp:
 msgid "Torpedo Space"
@@ -27320,10 +27920,6 @@ msgid "Show Server Info"
 msgstr ""
 
 #: ./Client/Input/GameInput.cpp:
-msgid "Move Camera"
-msgstr ""
-
-#: ./Client/Input/GameInput.cpp:
 msgid "Reset Camera"
 msgstr ""
 
@@ -27417,10 +28013,6 @@ msgstr ""
 
 #: ./Client/Input/GameInput.cpp:
 msgid "Camera Right"
-msgstr ""
-
-#: ./Client/Input/GameInput.cpp:
-msgid "Toggle Free Camera"
 msgstr ""
 
 #: ./Client/Input/GameInput.cpp:
@@ -28146,11 +28738,6 @@ msgstr ""
 
 
 # ========== ./Client/UI/UIControlsRenderer.cpp ==========
-#: ./Client/UI/UIControlsRenderer.cpp:
-msgctxt "Hold (keyboard key)"
-msgid "Hold %s"
-msgstr ""
-
 
 # ========== ./Client/UI/UIInputWindow.cpp ==========
 
@@ -28277,7 +28864,17 @@ msgid "A %s of yours has been destroyed!"
 msgstr ""
 
 #: ./Server/Game/Components/PlayerNotifier.cpp:
+msgctxt "i.e. losing health due to insufficient crew"
+msgid "Your craft %1% in sector \\s(%2%:%3%) is decaying!"
+msgstr ""
+
+#: ./Server/Game/Components/PlayerNotifier.cpp:
 msgid "Your craft %1% in sector \\s(%2%:%3%) is under attack!"
+msgstr ""
+
+#: ./Server/Game/Components/PlayerNotifier.cpp:
+msgctxt "i.e. losing health due to insufficient crew"
+msgid "One of your crafts in sector \\s(%1%:%2%) is decaying!"
 msgstr ""
 
 #: ./Server/Game/Components/PlayerNotifier.cpp:
@@ -28808,6 +29405,10 @@ msgid "Building knowledge for %s required."
 msgstr ""
 
 #: ./Server/Server/PlayerMessageHandlers/AddBlockTemplateMessageHandler.cpp:
+msgid "You cannot build a block this small."
+msgstr ""
+
+#: ./Server/Server/PlayerMessageHandlers/AddBlockTemplateMessageHandler.cpp:
 #: ./Server/Server/PlayerMessageHandlers/ChangeBlockMessageHandler.cpp:
 #: ./Server/Server/PlayerMessageHandlers/ModifyWholeShipMessageHandler.cpp:
 #: ./Server/Server/PlayerMessageHandlers/RepairShipMessageHandler.cpp:
@@ -28854,7 +29455,7 @@ msgid "Internal error: No design received."
 msgstr ""
 
 #: ./Server/Server/PlayerMessageHandlers/ApplyTurretDesignMessageHandler.cpp:
-msgid "Turret design rejected: "
+msgid "Turret design rejected: %s"
 msgstr ""
 
 #: ./Server/Server/PlayerMessageHandlers/ApplyTurretDesignMessageHandler.cpp:
@@ -28981,6 +29582,13 @@ msgstr ""
 
 #: ./Server/Server/PlayerMessageHandlers/BuildTurretMessageHandler.cpp:
 msgid "Not enough slots for defensive turrets. Install Turret Subsystems in your ship to increase the number of turret slots!"
+msgstr ""
+
+
+# ========== ./Server/Server/PlayerMessageHandlers/ChangeActiveWeaponsMessageHandler.cpp ==========
+#: ./Server/Server/PlayerMessageHandlers/ChangeActiveWeaponsMessageHandler.cpp:
+#: ./Server/Server/PlayerMessageHandlers/PlayerFlownShipMessageHandler.cpp:
+msgid "You are currently not inside a craft"
 msgstr ""
 
 
@@ -29207,11 +29815,14 @@ msgid "Building knowledge for more than %s subsystem sockets required."
 msgstr ""
 
 
-# ========== ./Server/Server/PlayerMessageHandlers/PlayerFlownShipMessageHandler.cpp ==========
-#: ./Server/Server/PlayerMessageHandlers/PlayerFlownShipMessageHandler.cpp:
-msgid "You are currently not inside a craft"
+# ========== ./Server/Server/PlayerMessageHandlers/MovePlayerToSectorMessageHandler.cpp ==========
+#: ./Server/Server/PlayerMessageHandlers/MovePlayerToSectorMessageHandler.cpp:
+msgctxt "argument denotes specific error, e.g. no craft available"
+msgid "Can't switch to target sector. %s"
 msgstr ""
 
+
+# ========== ./Server/Server/PlayerMessageHandlers/PlayerFlownShipMessageHandler.cpp ==========
 #: ./Server/Server/PlayerMessageHandlers/PlayerFlownShipMessageHandler.cpp:
 msgid "You are too far away."
 msgstr ""
@@ -29446,6 +30057,20 @@ msgid "Received %1% %2% in a trade."
 msgstr ""
 
 
+# ========== ./Server/Server/SectorSwitchUtility.cpp ==========
+#: ./Server/Server/SectorSwitchUtility.cpp:
+msgid "No craft to switch to available!"
+msgstr ""
+
+#: ./Server/Server/SectorSwitchUtility.cpp:
+msgid "Sector is in a rift!"
+msgstr ""
+
+#: ./Server/Server/SectorSwitchUtility.cpp:
+msgid "You currently can't switch sectors."
+msgstr ""
+
+
 # ========== ./Server/Server/Server.cpp ==========
 #: ./Server/Server/Server.cpp:
 msgid "Connection refused: Your version '%1%' does not match the server's version '%2%'."
@@ -29465,10 +30090,6 @@ msgstr ""
 
 #: ./Server/Server/Server.cpp:
 msgid "Connection refused: Player %s is already logged in."
-msgstr ""
-
-#: ./Server/Server/Server.cpp:
-msgid "Connection refused: Wrong password."
 msgstr ""
 
 #: ./Server/Server/Server.cpp:
@@ -29846,7 +30467,7 @@ msgid "Miner's Heaven"
 msgstr ""
 
 #: ./data/scripts/dlc/rift/lib/riftbonuses.lua:
-msgid "Bring your Mining Lasers! Lots of rich asteroids detected."
+msgid "Bring your Mining Lasers, preferrably R-Mining Lasers! Lots of rich asteroids detected."
 msgstr ""
 
 #: ./data/scripts/dlc/rift/lib/riftbonuses.lua:
@@ -29903,10 +30524,6 @@ msgstr ""
 
 #: ./data/scripts/dlc/rift/lib/riftmissionspecsui.lua:
 msgid ": %s"
-msgstr ""
-
-#: ./data/scripts/dlc/rift/lib/riftmissionspecsui.lua:
-msgid "Xsotan Strength +${n}"
 msgstr ""
 
 #: ./data/scripts/dlc/rift/lib/riftmissionspecsui.lua:
@@ -30394,7 +31011,7 @@ msgid "Acid Fog, intensity ${intensity}"
 msgstr ""
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
-msgid "This acid fog corrodes blocks below ${material}. These will suffer constant damage. Shields are useless against the acid fog."
+msgid "This acid fog corrodes exposed blocks below ${material}. These will suffer constant damage. Shields do not protect your ship against the acid fog."
 msgstr ""
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
@@ -32145,6 +32762,7 @@ msgstr ""
 #: ./data/scripts/lib/SectorGenerator.lua:
 #: ./data/scripts/player/ui/encyclopedia/chapters/exploring.lua:
 #: ./data/scripts/player/ui/encyclopedia/chapters/goodsglossary.lua:
+#: ./data/scripts/player/ui/encyclopedia/chapters/production.lua:
 #: ./data/scripts/sector/background/rebuildstations.lua:
 #: ./data/scripts/sectorspecifics.lua:
 msgid "Shipyard"
@@ -32217,6 +32835,7 @@ msgstr ""
 # ========== ./data/scripts/entity/merchants/casino.lua ==========
 #: ./data/scripts/entity/merchants/casino.lua:
 #: ./data/scripts/entity/stationfounder.lua:
+#: ./data/scripts/player/ui/encyclopedia/chapters/goodsglossary.lua:
 #: ./data/scripts/player/ui/encyclopedia/chapters/production.lua:
 #: ./data/scripts/sectorspecifics.lua:
 msgid "Casino"
@@ -38453,6 +39072,58 @@ msgid "Pirate Loot Transporter"
 msgstr ""
 
 
+# ========== ./data/scripts/lib/asyncxsotangenerator.lua ==========
+#: ./data/scripts/lib/asyncxsotangenerator.lua:
+#: ./data/scripts/lib/story/xsotan.lua:
+msgid "${toughness}Xsotan ${ship}"
+msgstr ""
+
+#: ./data/scripts/lib/asyncxsotangenerator.lua:
+#: ./data/scripts/lib/story/xsotan.lua:
+msgid "Xsotan Cultivator"
+msgstr ""
+
+#: ./data/scripts/lib/asyncxsotangenerator.lua:
+#: ./data/scripts/lib/story/xsotan.lua:
+msgid "${toughness}Quantum Xsotan ${ship}"
+msgstr ""
+
+#: ./data/scripts/lib/asyncxsotangenerator.lua:
+#: ./data/scripts/lib/story/xsotan.lua:
+msgid "${toughness}Xsotan Summoner"
+msgstr ""
+
+#: ./data/scripts/lib/asyncxsotangenerator.lua:
+#: ./data/scripts/lib/story/xsotan.lua:
+msgid "${toughness}Shielded Xsotan ${ship}"
+msgstr ""
+
+#: ./data/scripts/lib/asyncxsotangenerator.lua:
+#: ./data/scripts/lib/story/xsotan.lua:
+msgid "${toughness}Xsotan Bombardier ${ship}"
+msgstr ""
+
+#: ./data/scripts/lib/asyncxsotangenerator.lua:
+#: ./data/scripts/lib/story/xsotan.lua:
+msgid "${toughness}Xsotan Jostler ${ship}"
+msgstr ""
+
+#: ./data/scripts/lib/asyncxsotangenerator.lua:
+#: ./data/scripts/lib/story/xsotan.lua:
+msgid "Xsotan Aggregator"
+msgstr ""
+
+#: ./data/scripts/lib/asyncxsotangenerator.lua:
+#: ./data/scripts/lib/story/xsotan.lua:
+msgid "Xsotan Amplifier"
+msgstr ""
+
+#: ./data/scripts/lib/asyncxsotangenerator.lua:
+#: ./data/scripts/lib/story/xsotan.lua:
+msgid "Xsotan Master Summoner"
+msgstr ""
+
+
 # ========== ./data/scripts/lib/behemotheventutility.lua ==========
 #: ./data/scripts/lib/behemotheventutility.lua:
 msgid "North"
@@ -39735,6 +40406,25 @@ msgstr ""
 
 
 # ========== ./data/scripts/lib/entitydbg.lua ==========
+#: ./data/scripts/lib/entitydbg.lua:
+msgid "Only server admins have access."
+msgstr ""
+
+#: ./data/scripts/lib/entitydbg.lua:
+#: ./data/scripts/player/events/alienattack.lua:
+msgid "Xsotan Scout"
+msgstr ""
+
+#: ./data/scripts/lib/entitydbg.lua:
+#: ./data/scripts/player/events/alienattack.lua:
+msgid "Xsotan Ship"
+msgstr ""
+
+#: ./data/scripts/lib/entitydbg.lua:
+#: ./data/scripts/player/events/alienattack.lua:
+msgid "Big Xsotan Ship"
+msgstr ""
+
 
 # ========== ./data/scripts/lib/eventutility.lua ==========
 #: ./data/scripts/lib/eventutility.lua:
@@ -40785,6 +41475,7 @@ msgstr ""
 
 # ========== ./data/scripts/lib/story/operationexodus.lua ==========
 #: ./data/scripts/lib/story/operationexodus.lua:
+#: ./data/scripts/player/story/exodusmission.lua:
 msgid "The Haatii"
 msgstr ""
 
@@ -40875,47 +41566,7 @@ msgid "The Xsotan"
 msgstr ""
 
 #: ./data/scripts/lib/story/xsotan.lua:
-msgid "${toughness}Xsotan ${ship}"
-msgstr ""
-
-#: ./data/scripts/lib/story/xsotan.lua:
-msgid "Xsotan Cultivator"
-msgstr ""
-
-#: ./data/scripts/lib/story/xsotan.lua:
-msgid "${toughness}Quantum Xsotan ${ship}"
-msgstr ""
-
-#: ./data/scripts/lib/story/xsotan.lua:
 msgid "${toughness}Xsotan Dasher ${ship}"
-msgstr ""
-
-#: ./data/scripts/lib/story/xsotan.lua:
-msgid "${toughness}Xsotan Summoner"
-msgstr ""
-
-#: ./data/scripts/lib/story/xsotan.lua:
-msgid "${toughness}Shielded Xsotan ${ship}"
-msgstr ""
-
-#: ./data/scripts/lib/story/xsotan.lua:
-msgid "Xsotan Master Summoner"
-msgstr ""
-
-#: ./data/scripts/lib/story/xsotan.lua:
-msgid "${toughness}Xsotan Bombardier ${ship}"
-msgstr ""
-
-#: ./data/scripts/lib/story/xsotan.lua:
-msgid "${toughness}Xsotan Jostler ${ship}"
-msgstr ""
-
-#: ./data/scripts/lib/story/xsotan.lua:
-msgid "Xsotan Aggregator"
-msgstr ""
-
-#: ./data/scripts/lib/story/xsotan.lua:
-msgid "Xsotan Amplifier"
 msgstr ""
 
 #: ./data/scripts/lib/story/xsotan.lua:
@@ -40941,10 +41592,6 @@ msgstr ""
 # ========== ./data/scripts/lib/structuredmission.lua ==========
 #: ./data/scripts/lib/structuredmission.lua:
 msgid "Hi there old friend! Thank you for coming!"
-msgstr ""
-
-#: ./data/scripts/lib/structuredmission.lua:
-msgid "(done)"
 msgstr ""
 
 #: ./data/scripts/lib/structuredmission.lua:
@@ -42992,6 +43639,21 @@ msgstr ""
 
 #: ./data/scripts/player/background/homesectorrelations.lua:
 msgid "To the Troublemaker:\n\nWe cannot tolerate your actions against us but we hope that if we give you another chance, you will come back to your senses. Therefore, we reconstructed your drone in your home sector and offer you a ceasefire.\nFor this generous offer, we took the liberty to charge you a compensation payment of 15% of your money and resources. We hope that these troubles can be avoided in the future."
+msgstr ""
+
+
+# ========== ./data/scripts/player/background/lostships.lua ==========
+#: ./data/scripts/player/background/lostships.lua:
+msgid "The ship %1% has been moved to the reconstruction site of %2%."
+msgstr ""
+
+#: ./data/scripts/player/background/lostships.lua:
+msgid "Your alliance ship %1% mysteriously appeared near a rift right next to our towing crew. We brought it to the reconstruction site of %2% at (%3%:%4%)."
+msgstr ""
+
+#: ./data/scripts/player/background/lostships.lua:
+msgctxt "Mail Subject"
+msgid "Pick up your ship!"
 msgstr ""
 
 
@@ -47752,7 +48414,7 @@ msgid "Ships, Strategies & Captains"
 msgstr ""
 
 #: ./data/scripts/player/missions/tutorials/strategymodetutorial.lua:
-msgid "To play this mission, you are not allowed to fly the Lady yourself. Change back into your own ship!"
+msgid "\\c(f00)To play this mission, you are not allowed to fly the Lady yourself. Change back into your own ship!\\c()"
 msgstr ""
 
 #: ./data/scripts/player/missions/tutorials/strategymodetutorial.lua:
@@ -47852,7 +48514,7 @@ msgid "Meet the Adventurer in (${xCoord}:${yCoord})"
 msgstr ""
 
 #: ./data/scripts/player/missions/tutorials/torpedoestutorial.lua:
-msgid "Build a Torpedo Storage of at least size 9"
+msgid "Build a Torpedo Launcher and Storage of at least size 9"
 msgstr ""
 
 #: ./data/scripts/player/missions/tutorials/torpedoestutorial.lua:
@@ -47897,7 +48559,7 @@ msgid "Okay, let's do it."
 msgstr ""
 
 #: ./data/scripts/player/missions/tutorials/torpedoestutorial.lua:
-msgid "Let's start with building a Torpedo Storage that is big enough for our test torpedoes. The overall storage size should be at least 9. Remember that Torpedo Storage needs a certain minimum size for a torpedo to fit in."
+msgid "Let's start with building a Torpedo Launcher and Torpedo Storage that is big enough for our test torpedoes. The overall storage size should be at least 9. Remember that Torpedo Storage needs a certain minimum size for a torpedo to fit in."
 msgstr ""
 
 #: ./data/scripts/player/missions/tutorials/torpedoestutorial.lua:
@@ -47909,7 +48571,7 @@ msgid "The Adventurer"
 msgstr ""
 
 #: ./data/scripts/player/missions/tutorials/torpedoestutorial.lua:
-msgid "Your torpedo launcher has been destroyed."
+msgid "Your current ship has no torpedo launcher."
 msgstr ""
 
 #: ./data/scripts/player/missions/tutorials/torpedoestutorial.lua:
@@ -48425,11 +49087,7 @@ msgstr ""
 
 # ========== ./data/scripts/player/story/exodusmission.lua ==========
 #: ./data/scripts/player/story/exodusmission.lua:
-msgid "The Haathi"
-msgstr ""
-
-#: ./data/scripts/player/story/exodusmission.lua:
-msgid "Find out more about the Haathi"
+msgid "Find out more about the Haatii"
 msgstr ""
 
 #: ./data/scripts/player/story/exodusmission.lua:
@@ -48462,7 +49120,7 @@ msgstr ""
 
 #: ./data/scripts/player/story/exodusmission.lua:
 msgctxt "Mail Subject"
-msgid "The Haathi"
+msgid "The Haatii"
 msgstr ""
 
 #: ./data/scripts/player/story/exodusmission.lua:
@@ -49141,10 +49799,6 @@ msgstr ""
 # ========== ./data/scripts/player/ui/creativemodemenu.lua ==========
 #: ./data/scripts/player/ui/creativemodemenu.lua:
 msgid "Creative Mode"
-msgstr ""
-
-#: ./data/scripts/player/ui/creativemodemenu.lua:
-msgid "Creative Mode Command Center"
 msgstr ""
 
 #: ./data/scripts/player/ui/creativemodemenu.lua:
@@ -50101,10 +50755,6 @@ msgid "Open \\c(0d0)Building Mode\\c() by pressing \\c(fff)[${openBuild}]\\c() o
 msgstr ""
 
 #: ./data/scripts/player/ui/encyclopedia/chapters/building.lua:
-msgid "Camera"
-msgstr ""
-
-#: ./data/scripts/player/ui/encyclopedia/chapters/building.lua:
 msgid "In \\c(0d0)Building Mode\\c() you can move the camera by pressing \\c(fff)[${movCam}]\\c() and moving the mouse, turning it around the center of your ship."
 msgstr ""
 
@@ -50477,7 +51127,7 @@ msgid "Co-op Controls"
 msgstr ""
 
 #: ./data/scripts/player/ui/encyclopedia/chapters/coopmultiplayer.lua:
-msgid "Control ships together with your friends. Define \\c(0d0)additional seats\\c() and their \\c(0d0)roles\\c() in the \\c(0d0)Co-op Control Menu\\c()!"
+msgid "Control alliance ships together with your friends. Define \\c(0d0)additional seats\\c() and their \\c(0d0)roles\\c() in the \\c(0d0)Co-op Control Menu\\c()!\n\nNote: \"Fly Crafts\" permission is necessary. Check your alliance’s rank permissions if you can't enter alliance ships."
 msgstr ""
 
 #: ./data/scripts/player/ui/encyclopedia/chapters/coopmultiplayer.lua:
@@ -52416,6 +53066,10 @@ msgid "Bought at:"
 msgstr ""
 
 #: ./data/scripts/player/ui/encyclopedia/chapters/goodsglossary.lua:
+msgid "Ores are mined out of \\c(0d0)Rift Asteroids\\c() with both types of \\c(0d0)Mining Lasers\\c(), but \\c(0d0)R-Mining Lasers\\c() have a much higher efficiency."
+msgstr ""
+
+#: ./data/scripts/player/ui/encyclopedia/chapters/goodsglossary.lua:
 msgid "Ores are mined out of \\c(0d0)Asteroids\\c() with \\c(0d0)R-Mining Lasers\\c()."
 msgstr ""
 
@@ -53966,6 +54620,18 @@ msgstr ""
 
 #: ./data/scripts/sector/background/radiochatter.lua:
 msgid "I heard that inside the Barrier, the Xsotan eat up entire planets."
+msgstr ""
+
+#: ./data/scripts/sector/background/radiochatter.lua:
+msgid "Come with me into the rifts. Yes it's dangerous, but do you know how many resources you can gather there with R-Mining Lasers? Huge amounts!"
+msgstr ""
+
+#: ./data/scripts/sector/background/radiochatter.lua:
+msgid "...The quantum fluctuations of the rift subspace distortion have an adverse effect on purifying ores. It simply is not possible."
+msgstr ""
+
+#: ./data/scripts/sector/background/radiochatter.lua:
+msgid "...Don't bother with purifiying mining lasers in rifts, R-Mining is the way to go!"
 msgstr ""
 
 #: ./data/scripts/sector/background/radiochatter.lua:

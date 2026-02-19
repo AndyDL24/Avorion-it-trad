@@ -17102,6 +17102,18 @@ msgstr "Diventa il campione definitivo del nascondino."
 msgid "%s (Community)"
 msgstr "%s (Comunità)"
 
+
+# ========== ./Common/Utilities/LocalizationExtraStrings.cpp ==========
+#: ./Common/Utilities/LocalizationExtraStrings.cpp:
+msgctxt "player name"
+msgid "Game paused by %1%"
+msgstr "Gioco messo in pausa da %1%"
+
+#: ./Common/Utilities/LocalizationExtraStrings.cpp:
+msgid "Blocks must have a minimum size of %1% in this galaxy."
+msgstr "I blocchi devono avere una dimensione minima del %1% in questa galassia."
+
+
 # ========== ./Common/Utilities/Math/Math.cpp ==========
 #: ./Common/Utilities/Math/Math.cpp:
 #: ./data/scripts/lib/utility.lua:
@@ -17460,6 +17472,14 @@ msgstr "Qualsiasi riferimento a oggetti del mondo reale, persone (morte o vive),
 #: ./Client/Client/ClientGameUtility.cpp:
 msgid "The crew of ship '%s' must be paid."
 msgstr "L'equipaggio della nave \"%s\" deve essere pagato."
+
+#: ./Client/Client/ClientGameUtility.cpp:
+msgid "Alliance inventory is full!"
+msgstr "L'inventario dell'Alleanza è pieno!"
+
+#: ./Client/Client/ClientGameUtility.cpp:
+msgid "Alliance inventory is almost full!"
+msgstr "L'inventario dell'Alleanza è quasi pieno!"
 
 #: ./Client/Client/ClientGameUtility.cpp:
 msgid "Your inventory is full!"
@@ -19308,6 +19328,53 @@ msgid "Reservation runs out in: %s"
 msgstr "La prenotazione scade tra: %s"
 
 
+# ========== ./Client/Client/Scene/Renderers/SkyboxRenderer.cpp ==========
+#: ./Client/Client/Scene/Renderers/SkyboxRenderer.cpp:
+msgctxt "star type"
+msgid "Carbon Star"
+msgstr "Stella di carbonio"
+
+#: ./Client/Client/Scene/Renderers/SkyboxRenderer.cpp:
+msgctxt "star type"
+msgid "Red Giant"
+msgstr "Gigante rosso"
+
+#: ./Client/Client/Scene/Renderers/SkyboxRenderer.cpp:
+msgctxt "star type"
+msgid "Red Dwarf"
+msgstr "Nana Rossa"
+
+#: ./Client/Client/Scene/Renderers/SkyboxRenderer.cpp:
+msgctxt "star type"
+msgid "Orange Dwarf"
+msgstr "Nana arancione"
+
+#: ./Client/Client/Scene/Renderers/SkyboxRenderer.cpp:
+msgctxt "star type"
+msgid "Sol"
+msgstr "Sol"
+
+#: ./Client/Client/Scene/Renderers/SkyboxRenderer.cpp:
+msgctxt "star type"
+msgid "Yellow Dwarf"
+msgstr "Nana gialla"
+
+#: ./Client/Client/Scene/Renderers/SkyboxRenderer.cpp:
+msgctxt "star type"
+msgid "Blue Giant"
+msgstr "Gigante blu"
+
+#: ./Client/Client/Scene/Renderers/SkyboxRenderer.cpp:
+msgctxt "star type"
+msgid "White Dwarf"
+msgstr "Nana bianca"
+
+#: ./Client/Client/Scene/Renderers/SkyboxRenderer.cpp:
+msgctxt "star type"
+msgid "Bright Giant"
+msgstr "Gigante luminoso"
+
+
 # ========== ./Client/Client/ServerStartInfo.cpp ==========
 #: ./Client/Client/ServerStartInfo.cpp:
 msgid "Path %s doesn't exist."
@@ -19546,6 +19613,13 @@ msgid "Error while enabling mods: mod %1% [%2%] has the wrong version.\nRequired
 msgstr "Errore durante l'abilitazione delle mod: la mod %1% [%2%] ha la versione sbagliata.\nRichiesto: %3%.*, Installato: %4%"
 
 
+# ========== ./Client/Client/Session/ReconnectAfterPasswordErrorState.cpp ==========
+#: ./Client/Client/Session/ReconnectAfterPasswordErrorState.cpp:
+#: ./Server/Server/Server.cpp:
+msgid "Connection refused: Wrong password."
+msgstr "Connessione rifiutata: Password errata."
+
+
 # ========== ./Client/Client/Session/Session.cpp ==========
 #: ./Client/Client/Session/Session.cpp:
 msgid "Loading ..."
@@ -19566,6 +19640,9 @@ msgstr "Diplomazia"
 #: ./Client/Client/Session/Session.cpp:
 msgid "Too many messages."
 msgstr "Troppi messaggi."
+#: ./Client/Client/Session/Session.cpp:
+msgid "If you switch out of the sector you won't be able to return and your ships will be lost. Are you sure?"
+msgstr "Se si esce dal settore non si potrà tornare indietro e le navi andranno perse. Sei sicuro?"
 
 
 # ========== ./Client/Client/Steam/SteamClientAPI.cpp ==========
@@ -19594,6 +19671,15 @@ msgstr "Utente non connesso"
 #: ./Client/Client/Steam/Workshop/WorkshopBaseSubmission.cpp:
 msgid "Workshop Legal Agreement not accepted"
 msgstr "Accordo legale del Workshop non accettato"
+
+#: ./Client/Client/Steam/Workshop/WorkshopBaseSubmission.cpp:
+msgctxt "User put sth wrong in a text field"
+msgid "Invalid Field Value"
+msgstr "Valore del campo non valido"
+
+#: ./Client/Client/Steam/Workshop/WorkshopBaseSubmission.cpp:
+msgid "Steam Cloud Quota Exceeded"
+msgstr "Quota Steam Cloud superata"
 
 #: ./Client/Client/Steam/Workshop/WorkshopBaseSubmission.cpp:
 msgid "Unknown Error, Code: %i"
@@ -19942,9 +20028,6 @@ msgstr "Inserisci le coordinate separate da due punti: "
 msgid "Enter the note you want to attach to the sector (Only 300 characters will be saved): "
 msgstr "Inserisci la nota che vuoi allegare al settore (verranno salvati solo 300 caratteri): "
 
-#: ./Client/ClientUI/GalaxyMap/GalaxyMap.cpp:
-msgid "If you switch out of the sector you won't be able to return and your ships will be lost. Are you sure?"
-msgstr "Se esci dal settore non potrai tornare e le tue navi andranno perse. Sei sicuro?"
 
 
 # ========== ./Client/ClientUI/GalaxyMap/IndicatorsLayer.cpp ==========
@@ -20242,6 +20325,22 @@ msgid "The selected blocks have different colors. Select one."
 msgstr "I blocchi selezionati hanno colori diversi. Selezionane uno."
 
 #: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "Pick Secondary Color from Selected Block"
+msgstr "Scegliere il colore secondario dal blocco selezionato"
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "Secondary Color View"
+msgstr "Vista del colore secondario"
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "Material Color (Default)"
+msgstr "Colore del materiale (predefinito)"
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "No Change"
+msgstr "Nessun cambiamento"
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
 msgid "Used Colors First"
 msgstr "Prima i colori usati"
 
@@ -20249,6 +20348,37 @@ msgstr "Prima i colori usati"
 msgid "Normal Order"
 msgstr "Ordine normale"
 
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "Primary Color "
+msgstr "Colore primario "
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "Secondary Color "
+msgstr "Colore secondario "
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "No Custom Primary Color"
+msgstr "Nessun colore primario personalizzato"
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "Any Primary Color"
+msgstr "Qualsiasi colore primario"
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "No Custom Secondary Color"
+msgstr "Nessun colore secondario personalizzato"
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "Any Secondary Color"
+msgstr "Qualsiasi colore secondario"
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "Select All Blocks with:"
+msgstr "Selezionare tutti i blocchi con:"
+
+#: ./Client/ClientUI/Hud/BuildingColorsWindow.cpp:
+msgid "Pick Color from Selected Block"
+msgstr "Scegliere il colore dal blocco selezionato"
 
 # ========== ./Client/ClientUI/Hud/BuildingControls.cpp ==========
 #: ./Client/ClientUI/Hud/BuildingControls.cpp:
@@ -20419,6 +20549,7 @@ msgstr "Ricostruzione della forma in corso..."
 
 # ========== ./Client/ClientUI/Hud/BuildingInputHints.cpp ==========
 #: ./Client/ClientUI/Hud/BuildingInputHints.cpp:
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeInputHints.cpp:
 msgid "Rotate Camera"
 msgstr "Ruota telecamera"
 
@@ -21902,6 +22033,17 @@ msgid "Ship Menu (%s)"
 msgstr "Menu Nave (%s)"
 
 #: ./Client/ClientUI/Hud/QuickMenu.cpp:
+#: ./Client/UI/UIControlsRenderer.cpp:
+msgctxt "Hold (keyboard key)"
+msgid "Hold %s"
+msgstr "Tieni premuto %s%"
+
+#: ./Client/ClientUI/Hud/QuickMenu.cpp:
+msgctxt "tooltip: 1: ship name, 2: keyboard key"
+msgid "Ship Menu of %1% (%2%)"
+msgstr "Menu nave di %1% (%2%)"
+
+#: ./Client/ClientUI/Hud/QuickMenu.cpp:
 msgctxt "tooltip"
 msgid "Galaxy Map (%s)"
 msgstr "Mappa galattica (%s)"
@@ -22488,6 +22630,11 @@ msgid "Show Details"
 msgstr "Mostra dettagli"
 
 #: ./Client/ClientUI/Hud/TrackedMissionsDisplayer.cpp:
+#: ./data/scripts/lib/structuredmission.lua:
+msgid "(done)"
+msgstr "(fatto)"
+
+#: ./Client/ClientUI/Hud/TrackedMissionsDisplayer.cpp:
 msgctxt "vague location"
 msgid "~ %1%"
 msgstr "~ %1%"
@@ -23072,6 +23219,13 @@ msgstr "Interazione"
 #: ./data/scripts/player/ui/encyclopedia/chapters/fleetmanagement.lua:
 msgid "Strategy Mode"
 msgstr "Modalità Strategia"
+#: ./Client/ClientUI/Menu/ControlSettingsWindow.cpp:
+#: ./Client/ClientUI/Menu/PauseMenu.cpp:
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeSettingsWindow.cpp:
+#: ./Client/Input/GameInput.cpp:
+msgctxt "Mode to make pretty screenshots"
+msgid "Photo Mode"
+msgstr "Modalità foto"
 
 #: ./Client/ClientUI/Menu/ControlSettingsWindow.cpp:
 msgid "Control Settings"
@@ -25062,8 +25216,199 @@ msgstr "Versione Galaxy: %1%\nVersione del gioco: %2%"
 #: ./Client/ClientUI/Menu/VersionSaveGameIssuesWindow.cpp:
 msgid "Continuing can lead to a broken savegame and/or crashes!"
 msgstr "Continuare può portare a un savegame rotto e/o a crash!"
+# ========== ./Client/ClientUI/PhotoModeUI/CameraTab.cpp ==========
+#: ./Client/ClientUI/PhotoModeUI/CameraTab.cpp:
+#: ./data/scripts/player/ui/encyclopedia/chapters/building.lua:
+msgid "Camera"
+msgstr "Camera"
+
+#: ./Client/ClientUI/PhotoModeUI/CameraTab.cpp:
+msgctxt "Camera Setting"
+msgid "Field of View"
+msgstr "Campo visivo"
+
+#: ./Client/ClientUI/PhotoModeUI/CameraTab.cpp:
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Reset to original value"
+msgstr "Ripristinare il valore originale"
 
 
+# ========== ./Client/ClientUI/PhotoModeUI/EffectsTab.cpp ==========
+#: ./Client/ClientUI/PhotoModeUI/EffectsTab.cpp:
+msgid "Effects"
+msgstr "Effetti"
+
+#: ./Client/ClientUI/PhotoModeUI/EffectsTab.cpp:
+msgid "Color Filter"
+msgstr "Filtro colore"
+
+#: ./Client/ClientUI/PhotoModeUI/EffectsTab.cpp:
+msgid "No filter"
+msgstr "Nessun filtro"
+
+#: ./Client/ClientUI/PhotoModeUI/EffectsTab.cpp:
+msgid "Grayscale"
+msgstr "Scala di grigi"
+
+#: ./Client/ClientUI/PhotoModeUI/EffectsTab.cpp:
+msgid "Sepia"
+msgstr "Seppia"
+
+#: ./Client/ClientUI/PhotoModeUI/EffectsTab.cpp:
+msgid "Desaturated"
+msgstr "Desaturato"
+
+#: ./Client/ClientUI/PhotoModeUI/EffectsTab.cpp:
+msgid "Saturated"
+msgstr "Saturazione"
+
+#: ./Client/ClientUI/PhotoModeUI/EffectsTab.cpp:
+msgid "Vignette"
+msgstr "Vignetta"
+
+
+# ========== ./Client/ClientUI/PhotoModeUI/PhotoModeInputHints.cpp ==========
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeInputHints.cpp:
+msgctxt "new sun or planet position in sector"
+msgid "Pick New Position"
+msgstr "Scegliere una nuova posizione"
+
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeInputHints.cpp:
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeSettingsWindow.cpp:
+#: ./Client/Input/GameInput.cpp:
+msgid "Take Photo"
+msgstr "Scatta la foto"
+
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeInputHints.cpp:
+#: ./Client/Input/GameInput.cpp:
+msgid "Toggle Free Camera"
+msgstr "Alterna la telecamera libera"
+
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeInputHints.cpp:
+msgid "Roll Camera"
+msgstr "Scorri camera"
+
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeInputHints.cpp:
+#: ./Client/Input/GameInput.cpp:
+msgid "Move Camera"
+msgstr "Spostare la telecamera"
+
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeInputHints.cpp:
+#: ./Client/Input/GameInput.cpp:
+msgid "Camera Speedup"
+msgstr "Velocità della telecamera"
+
+
+# ========== ./Client/ClientUI/PhotoModeUI/PhotoModeSettingsWindow.cpp ==========
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeSettingsWindow.cpp:
+msgid "Take High Resolution Photo"
+msgstr "Scattare foto ad alta risoluzione"
+
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeSettingsWindow.cpp:
+msgid "This requires a lot of VRAM and may take a while. Use at your own risk. Are you sure?"
+msgstr "Questo richiede molta VRAM e potrebbe richiedere un po' di tempo. Utilizzatelo a vostro rischio e pericolo. Sei sicuro?"
+
+#: ./Client/ClientUI/PhotoModeUI/PhotoModeSettingsWindow.cpp:
+msgid "Open Screenshot Folder"
+msgstr "Aprire la cartella degli screenshot"
+
+
+# ========== ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp ==========
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Skybox"
+msgstr "Skybox"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Sector Style"
+msgstr "Stile del settore"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Random"
+msgstr "Casuale"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Press [Enter] to apply style"
+msgstr "Premere [Invio] per applicare lo stile"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Reset sector style"
+msgstr "Azzeramento dello stile del settore"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Rift Sector"
+msgstr "Settore Rift"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Sun Type"
+msgstr "Tipo di sole"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Reset to original sun type"
+msgstr "Ripristino del tipo di sole originale"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Sun Position"
+msgstr "Posizione del sole"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgctxt "select new sun position in sector"
+msgid "Click to position sun"
+msgstr "Fai clic per posizionare il sole"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Behind Camera"
+msgstr "Dietro la telecamera"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Reset to original sun position"
+msgstr "Ripristino della posizione originale del sole"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Planet Position"
+msgstr "Posizione del pianeta"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgctxt "select new planet position in sector"
+msgid "Click to position planet"
+msgstr "Fai clic per posizionare il pianeta"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Reset to original planet position"
+msgstr "Ripristino della posizione originale del pianeta"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Star Density"
+msgstr "Densità delle stelle"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Sector Color"
+msgstr "Colore del settore"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Dustiness"
+msgstr "Polverosità"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "No Dust"
+msgstr "No polvere"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "Some Dust"
+msgstr "Un po' di polvere"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "A Lot Of Dust"
+msgstr "Un sacco di polvere"
+
+#: ./Client/ClientUI/PhotoModeUI/SkyboxTab.cpp:
+msgid "A Ton Of Dust"
+msgstr "Una tonnellata di polvere"
+
+
+# ========== ./Client/ClientUI/PhotoModeUI/StickersTab.cpp ==========
+#: ./Client/ClientUI/PhotoModeUI/StickersTab.cpp:
+msgid "Stickers"
+msgstr ""
 # ========== ./Client/ClientUI/PlayerComboBox.cpp ==========
 #: ./Client/ClientUI/PlayerComboBox.cpp:
 msgid "-- OFFLINE --"
@@ -26464,6 +26809,10 @@ msgid "Your craft doesn't have torpedo storage or shafts."
 msgstr "La tua nave non ha depositi di siluri o tubi di lancio."
 
 #: ./Client/ClientUI/ShipWindow/ShipWindow.cpp:
+msgid "Co-op Controls are only available for alliance crafts."
+msgstr "I controlli cooperativi sono disponibili solo per i progetti di alleanza."	 
+
+#: ./Client/ClientUI/ShipWindow/ShipWindow.cpp:
 msgid "Remote Access"
 msgstr "Accesso remoto"
 
@@ -27142,6 +27491,14 @@ msgstr[0] "Assumi 1 membro dell'equipaggio tuttofare che può essere assegnato a
 msgstr[1] "Assumi ${i} membri dell'equipaggio tuttofare che possono essere assegnati a quasi tutte le posizioni."
 
 
+# ========== ./Client/ClientUI/UIDualColorPreview.cpp ==========
+#: ./Client/ClientUI/UIDualColorPreview.cpp:
+msgid "Primary Color: %s"
+msgstr "Colore primario: %s"
+
+#: ./Client/ClientUI/UIDualColorPreview.cpp:
+msgid "Secondary Color: %s"
+msgstr "Colore secondario: %s"
 # ========== ./Client/ClientUI/UIShipStatsDisplayer.cpp ==========
 #: ./Client/ClientUI/UIShipStatsDisplayer.cpp:
 msgid "Torpedo Space"
@@ -27291,10 +27648,6 @@ msgid "Show Server Info"
 msgstr "Mostra informazioni sul server"
 
 #: ./Client/Input/GameInput.cpp:
-msgid "Move Camera"
-msgstr "Muovi la telecamera"
-
-#: ./Client/Input/GameInput.cpp:
 msgid "Reset Camera"
 msgstr "Ripristina fotocamera"
 
@@ -27389,10 +27742,6 @@ msgstr "Camera a sinistra"
 #: ./Client/Input/GameInput.cpp:
 msgid "Camera Right"
 msgstr "Camera a destra"
-
-#: ./Client/Input/GameInput.cpp:
-msgid "Toggle Free Camera"
-msgstr "Attiva/disattiva telecamera libera"
 
 #: ./Client/Input/GameInput.cpp:
 msgid "Toggle Smooth Camera"
@@ -28117,10 +28466,10 @@ msgstr "Selezione colore"
 
 
 # ========== ./Client/UI/UIControlsRenderer.cpp ==========
-#: ./Client/UI/UIControlsRenderer.cpp:
-msgctxt "Hold (keyboard key)"
-msgid "Hold %s"
-msgstr "Tieni premuto %s"
+
+
+
+
 
 
 # ========== ./Client/UI/UIInputWindow.cpp ==========
@@ -28779,6 +29128,9 @@ msgid "Building knowledge for %s required."
 msgstr "Conoscenze di costruzione per %s richieste."
 
 #: ./Server/Server/PlayerMessageHandlers/AddBlockTemplateMessageHandler.cpp:
+msgid "You cannot build a block this small."
+msgstr "Non si può costruire un blocco così piccolo."
+
 #: ./Server/Server/PlayerMessageHandlers/ChangeBlockMessageHandler.cpp:
 #: ./Server/Server/PlayerMessageHandlers/ModifyWholeShipMessageHandler.cpp:
 #: ./Server/Server/PlayerMessageHandlers/RepairShipMessageHandler.cpp:
@@ -28954,6 +29306,13 @@ msgstr "Non ci sono abbastanza slot per le torrette civili. Installa i sottosist
 msgid "Not enough slots for defensive turrets. Install Turret Subsystems in your ship to increase the number of turret slots!"
 msgstr "Slot insufficienti per le torrette militari difensive. Installa i sottosistemi per torrette nella tua nave per aumentare il numero di slot della torretta!"
 
+
+
+# ========== ./Server/Server/PlayerMessageHandlers/ChangeActiveWeaponsMessageHandler.cpp ==========
+#: ./Server/Server/PlayerMessageHandlers/ChangeActiveWeaponsMessageHandler.cpp:
+#: ./Server/Server/PlayerMessageHandlers/PlayerFlownShipMessageHandler.cpp:
+msgid "You are currently not inside a craft"
+msgstr "Al momento non ci si trova all'interno di una nave"
 
 # ========== ./Server/Server/PlayerMessageHandlers/ChangeBlockMessageHandler.cpp ==========
 #: ./Server/Server/PlayerMessageHandlers/ChangeBlockMessageHandler.cpp:
@@ -29179,10 +29538,6 @@ msgstr "Conoscenze di costruzione per più di %s prese del sottosistema richiest
 
 
 # ========== ./Server/Server/PlayerMessageHandlers/PlayerFlownShipMessageHandler.cpp ==========
-#: ./Server/Server/PlayerMessageHandlers/PlayerFlownShipMessageHandler.cpp:
-msgid "You are currently not inside a craft"
-msgstr "Al momento non sei all'interno di una nave"
-
 #: ./Server/Server/PlayerMessageHandlers/PlayerFlownShipMessageHandler.cpp:
 msgid "You are too far away."
 msgstr "Sei troppo lontano."
@@ -29438,9 +29793,6 @@ msgstr "Connessione rifiutata: il tuo nome giocatore %s non è valido."
 msgid "Connection refused: Player %s is already logged in."
 msgstr "Connessione rifiutata: il giocatore %s è già connesso."
 
-#: ./Server/Server/Server.cpp:
-msgid "Connection refused: Wrong password."
-msgstr "Connessione rifiutata: password errata."
 
 #: ./Server/Server/Server.cpp:
 msgid "Connection refused: Player %s is banned."
@@ -39714,6 +40066,9 @@ msgstr "Abbiamo bisogno di torrette o caccia riparatori per guarire!"
 
 
 # ========== ./data/scripts/lib/entitydbg.lua ==========
+#: ./data/scripts/lib/entitydbg.lua:
+msgid "Only server admins have access."
+msgstr "Solo gli amministratori del server hanno accesso."
 
 # ========== ./data/scripts/lib/eventutility.lua ==========
 #: ./data/scripts/lib/eventutility.lua:
@@ -40921,10 +41276,6 @@ msgstr " e "
 #: ./data/scripts/lib/structuredmission.lua:
 msgid "Hi there old friend! Thank you for coming!"
 msgstr "Ciao vecchio amico! Grazie per essere venuti!"
-
-#: ./data/scripts/lib/structuredmission.lua:
-msgid "(done)"
-msgstr "(fatto)"
 
 #: ./data/scripts/lib/structuredmission.lua:
 msgid "To play this mission, you must be in one of your own ships, not an alliance ship!"
@@ -50082,10 +50433,6 @@ msgid "Open \\c(0d0)Building Mode\\c() by pressing \\c(fff)[${openBuild}]\\c() o
 msgstr "Apri \\c(0d0) Modalità Costruzione\\c() premendo \\c(fff)[${openBuild}]\\c() o usa l'icona a forma di martello nell'angolo in alto a destra.\n\nSe vuoi vedere tutti i\\c(0d0)blocchi\\c() disponibili, tieni premuto \\c(fff)[${inventory}]\\c(). Tutti i blocchi possono essere \\c(0d0)scalati\\c() in qualsiasi direzione tenendo premuto \\c(fff)[${W}]\\c(), \\c(fff)[${A}]\\c(), \\c(fff)[${S}]\\c(), \\c(fff)[${D}]\\c() e muovendo il mouse.\n\nSeleziona un blocco che è già sulla tua nave usando \\c(fff)[${select}]\\c() e più blocchi tenendo premuto \\c(fff)[CTRL]\\c() e usando \\c(fff)[${select}]\\c(). Per ruotare il blocco che desideri posizionare, premi \\c(fff)[${rotate}]\\c().\n\nSe non sai come fare qualcosa, premi \\c(fff)[${short}]\\c() per avere una panoramica di tutte le \\c(0d0) scorciatoie di costruzione\\c()!"
 
 #: ./data/scripts/player/ui/encyclopedia/chapters/building.lua:
-msgid "Camera"
-msgstr "Fotocamera"
-
-#: ./data/scripts/player/ui/encyclopedia/chapters/building.lua:
 msgid "In \\c(0d0)Building Mode\\c() you can move the camera by pressing \\c(fff)[${movCam}]\\c() and moving the mouse, turning it around the center of your ship."
 msgstr "In \\c(0d0) Modalità Costruzione\\c() puoi spostare la telecamera premendo \\c(fff)[${movCam}]\\c() e muovendo il mouse, ruotandolo intorno al centro della tua nave."
 
@@ -54353,12 +54700,14 @@ msgid "There is no discord here."
 msgstr "Non c'è discordia qui."
 
 
+
 # ========== ./data/scripts/sector/background/rebuildstations.lua ==========
 
 # ========== ./data/scripts/sector/background/relationchanges.lua ==========
 #: ./data/scripts/sector/background/relationchanges.lua:
 msgid "You attacked a civil ship. Relations with witnessing honorable factions worsened."
 msgstr "Hai attaccato una nave civile. I rapporti con le fazioni testimoni peggiorarono."
+
 
 # ========== ./data/scripts/sector/background/sectorcontentsupdater.lua ==========
 #: ./data/scripts/sector/background/sectorcontentsupdater.lua:
@@ -62214,5 +62563,3 @@ msgstr "Giallo"
 msgctxt "Color Name"
 msgid "Yellow Green"
 msgstr "Giallo Verde"
-
-
