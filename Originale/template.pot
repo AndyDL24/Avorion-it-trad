@@ -20119,7 +20119,7 @@ msgstr ""
 
 #: ./Client/ClientUI/GalaxyMap/GalaxyMap.cpp:
 msgid "Enter the note you want to attach to the sector (Only 300 characters will be saved): "
-msgstr ""
+msgstr ""																					 
 
 
 # ========== ./Client/ClientUI/GalaxyMap/IndicatorsLayer.cpp ==========
@@ -27918,7 +27918,6 @@ msgstr ""
 #: ./Client/Input/GameInput.cpp:
 msgid "Show Server Info"
 msgstr ""
-
 #: ./Client/Input/GameInput.cpp:
 msgid "Reset Camera"
 msgstr ""
@@ -28013,7 +28012,7 @@ msgstr ""
 
 #: ./Client/Input/GameInput.cpp:
 msgid "Camera Right"
-msgstr ""
+msgstr ""		   
 
 #: ./Client/Input/GameInput.cpp:
 msgid "Toggle Smooth Camera"
@@ -30090,7 +30089,7 @@ msgstr ""
 
 #: ./Server/Server/Server.cpp:
 msgid "Connection refused: Player %s is already logged in."
-msgstr ""
+msgstr ""								
 
 #: ./Server/Server/Server.cpp:
 msgid "Connection refused: Player %s is banned."
@@ -30524,7 +30523,7 @@ msgstr ""
 
 #: ./data/scripts/dlc/rift/lib/riftmissionspecsui.lua:
 msgid ": %s"
-msgstr ""
+msgstr ""		   
 
 #: ./data/scripts/dlc/rift/lib/riftmissionspecsui.lua:
 msgid "Overcharging the teleporter will create subspace waves that won't go unnoticed by the Xsotan swarm."
@@ -41564,11 +41563,9 @@ msgstr ""
 #: ./data/scripts/lib/story/xsotan.lua:
 msgid "The Xsotan"
 msgstr ""
-
 #: ./data/scripts/lib/story/xsotan.lua:
 msgid "${toughness}Xsotan Dasher ${ship}"
 msgstr ""
-
 #: ./data/scripts/lib/story/xsotan.lua:
 msgid "Xsotan Masticator"
 msgstr ""
@@ -41592,7 +41589,7 @@ msgstr ""
 # ========== ./data/scripts/lib/structuredmission.lua ==========
 #: ./data/scripts/lib/structuredmission.lua:
 msgid "Hi there old friend! Thank you for coming!"
-msgstr ""
+msgstr ""	
 
 #: ./data/scripts/lib/structuredmission.lua:
 msgid "To play this mission, you must be in one of your own ships, not an alliance ship!"
@@ -49086,7 +49083,7 @@ msgstr ""
 
 
 # ========== ./data/scripts/player/story/exodusmission.lua ==========
-#: ./data/scripts/player/story/exodusmission.lua:
+#: ./data/scripts/player/story/exodusmission.lua:	 
 msgid "Find out more about the Haatii"
 msgstr ""
 
@@ -50753,7 +50750,6 @@ msgstr ""
 #: ./data/scripts/player/ui/encyclopedia/chapters/building.lua:
 msgid "Open \\c(0d0)Building Mode\\c() by pressing \\c(fff)[${openBuild}]\\c() or use the hammer icon in the top right corner.\n\nIf you want to see all available \\c(0d0)blocks\\c(), hold \\c(fff)[${inventory}]\\c(). All blocks can be \\c(0d0)scaled\\c() in any direction by holding \\c(fff)[${W}]\\c(), \\c(fff)[${A}]\\c(), \\c(fff)[${S}]\\c(), \\c(fff)[${D}]\\c() and moving the mouse.\n\nSelect a block that is already on your ship by using \\c(fff)[${select}]\\c() and multiple blocks by holding down \\c(fff)[CTRL]\\c() and using \\c(fff)[${select}]\\c(). To rotate the block you'd like to place, press \\c(fff)[${rotate}]\\c().\n\nIf you don't know how to do something, press \\c(fff)[${short}]\\c() to get an overview of all \\c(0d0)building shortcuts\\c()!"
 msgstr ""
-
 #: ./data/scripts/player/ui/encyclopedia/chapters/building.lua:
 msgid "In \\c(0d0)Building Mode\\c() you can move the camera by pressing \\c(fff)[${movCam}]\\c() and moving the mouse, turning it around the center of your ship."
 msgstr ""
@@ -62873,5 +62869,3 @@ msgstr ""
 msgctxt "Color Name"
 msgid "Yellow Green"
 msgstr ""
-
-
